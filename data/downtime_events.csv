@@ -1,0 +1,825 @@
+Event_ID,Production_ID,Machine_ID,Event_Start,Event_End,Duration_Min,Downtime_Category,Downtime_Reason,Loss_Type,Planned_Unplanned,Operator_ID,Comments
+DT-00001,PR-001-A,EX-001,1/1/2026 6:52,1/1/2026 7:06,13.89,Quality,In-process inspection hold,Availability,Unplanned,OP-005,
+DT-00002,PR-001-A,EX-001,1/1/2026 7:51,1/1/2026 8:15,23.29,Material,Resin feed interruption,Availability,Unplanned,OP-011,
+DT-00003,PR-001-A,EX-001,1/1/2026 8:43,1/1/2026 8:58,14.55,Process,Die buildup requiring stop,Availability,Unplanned,OP-002,
+DT-00006,PR-001-A,EX-001,1/1/2026 9:48,1/1/2026 9:50,1.96,Minor Stops,Short material bridge,Performance,Unplanned,OP-004,
+DT-00008,PR-001-B,EX-001,1/1/2026 14:21,1/1/2026 14:59,38.42,Mechanical,Screw drive fault,Availability,Unplanned,OP-002,
+DT-00009,PR-001-B,EX-001,1/1/2026 15:16,1/1/2026 15:42,25.64,Process,Melt temperature instability,Availability,Unplanned,OP-008,
+DT-00010,PR-001-B,EX-001,1/1/2026 16:19,1/1/2026 16:31,12.6,Mechanical,Gearbox vibration,Availability,Unplanned,OP-006,
+DT-00011,PR-001-B,EX-001,1/1/2026 16:54,1/1/2026 17:47,53.24,Mechanical,Drive coupling failure,Availability,Unplanned,OP-005,
+DT-00014,PR-001-B,EX-001,1/1/2026 18:50,1/1/2026 18:51,1.07,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-010,
+DT-00016,PR-001-C,EX-001,1/2/2026 2:36,1/2/2026 3:30,54.04,Electrical,Control panel reset,Availability,Unplanned,OP-001,
+DT-00017,PR-002-A,EX-001,1/2/2026 8:16,1/2/2026 8:47,31.57,Process,Melt temperature instability,Availability,Unplanned,OP-008,
+DT-00018,PR-002-A,EX-001,1/2/2026 9:49,1/2/2026 10:09,19.76,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00020,PR-002-B,EX-001,1/2/2026 15:06,1/2/2026 16:05,59.4,Electrical,Heater circuit fault,Availability,Unplanned,OP-007,
+DT-00024,PR-002-C,EX-001,1/2/2026 22:57,1/2/2026 23:23,25.56,Material,Material lot verification hold,Availability,Unplanned,OP-011,
+DT-00025,PR-002-C,EX-001,1/3/2026 0:17,1/3/2026 1:01,44.42,Mechanical,Bearing temperature high,Availability,Unplanned,OP-003,
+DT-00026,PR-002-C,EX-001,1/3/2026 1:12,1/3/2026 1:41,28.3,Mechanical,Bearing temperature high,Availability,Unplanned,OP-012,
+DT-00029,PR-003-B,EX-001,1/3/2026 14:00,1/3/2026 14:26,26.33,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00030,PR-003-B,EX-001,1/3/2026 15:41,1/3/2026 16:00,18.78,Mechanical,Screw drive fault,Availability,Unplanned,OP-006,
+DT-00031,PR-003-B,EX-001,1/3/2026 16:40,1/3/2026 16:43,2.16,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-00035,PR-003-C,EX-001,1/3/2026 22:52,1/3/2026 23:25,33.26,Process,Die buildup requiring stop,Availability,Unplanned,OP-005,
+DT-00036,PR-003-C,EX-001,1/4/2026 0:31,1/4/2026 0:49,17.82,Quality,Quality hold,Availability,Unplanned,OP-012,
+DT-00039,PR-004-A,EX-001,1/4/2026 7:13,1/4/2026 7:45,32.36,Process,Dimensional adjustment,Availability,Unplanned,OP-004,
+DT-00040,PR-004-A,EX-001,1/4/2026 8:19,1/4/2026 8:43,24.53,Process,Dimensional adjustment,Availability,Unplanned,OP-001,
+DT-00044,PR-004-B,EX-001,1/4/2026 15:20,1/4/2026 15:53,32.44,Changeover,Material grade change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00045,PR-004-B,EX-001,1/4/2026 16:55,1/4/2026 16:57,1.71,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-002,
+DT-00047,PR-004-C,EX-001,1/4/2026 23:43,1/5/2026 0:03,19.27,Material,Resin feed interruption,Availability,Unplanned,OP-012,
+DT-00048,PR-004-C,EX-001,1/5/2026 0:59,1/5/2026 1:14,15.26,Quality,Defect investigation,Availability,Unplanned,OP-008,
+DT-00049,PR-004-C,EX-001,1/5/2026 1:47,1/5/2026 1:50,2.39,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-002,
+DT-00051,PR-005-A,EX-001,1/5/2026 8:12,1/5/2026 8:28,16.81,Process,Pressure instability,Availability,Unplanned,OP-009,
+DT-00053,PR-005-B,EX-001,1/5/2026 14:13,1/5/2026 14:44,31.12,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00054,PR-005-B,EX-001,1/5/2026 16:23,1/5/2026 16:30,6.98,Material,Material lot verification hold,Availability,Unplanned,OP-004,
+DT-00055,PR-005-B,EX-001,1/5/2026 17:32,1/5/2026 17:39,6.71,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-00056,PR-005-B,EX-001,1/5/2026 18:11,1/5/2026 18:12,0.42,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00057,PR-005-C,EX-001,1/5/2026 22:57,1/5/2026 23:38,41.38,Process,Die buildup requiring stop,Availability,Unplanned,OP-005,
+DT-00058,PR-005-C,EX-001,1/6/2026 0:09,1/6/2026 1:09,59.98,Changeover,Material grade change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00060,PR-005-C,EX-001,1/6/2026 1:39,1/6/2026 1:41,2.21,Minor Stops,,Performance,Unplanned,OP-004,
+DT-00061,PR-005-C,EX-001,1/6/2026 1:49,1/6/2026 1:51,1.4,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-011,
+DT-00064,PR-006-A,EX-001,1/6/2026 7:32,1/6/2026 8:22,50.37,Changeover,Color/purge change,Availability,Planned,OP-003,Changeover duration above expected standard
+DT-00065,PR-006-A,EX-001,1/6/2026 9:35,1/6/2026 10:18,42.13,Material,Resin feed interruption,Availability,Unplanned,OP-011,
+DT-00068,PR-006-B,EX-001,1/6/2026 15:20,1/6/2026 16:02,42.33,Process,Dimensional adjustment,Availability,Unplanned,OP-002,
+DT-00073,PR-006-C,EX-001,1/6/2026 22:26,1/6/2026 22:46,19.23,Process,Pressure instability,Availability,Unplanned,OP-003,
+DT-00076,PR-006-C,EX-001,1/6/2026 23:55,1/6/2026 23:56,1.15,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-00077,PR-006-C,EX-001,1/7/2026 0:11,1/7/2026 0:12,1.91,Minor Stops,Short material bridge,Performance,Unplanned,OP-003,
+DT-00080,PR-007-A,EX-001,1/7/2026 6:40,1/7/2026 6:47,7.02,Electrical,Heater circuit fault,Availability,Unplanned,OP-005,
+DT-00081,PR-007-A,EX-001,1/7/2026 7:25,1/7/2026 7:57,31.77,Material,Material not staged,Availability,Unplanned,OP-001,
+DT-00082,PR-007-A,EX-001,1/7/2026 8:36,1/7/2026 8:55,18.49,Process,Melt temperature instability,Availability,Unplanned,OP-010,
+DT-00083,PR-007-A,EX-001,1/7/2026 9:10,1/7/2026 9:52,41.47,Changeover,Color/purge change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-00084,PR-007-A,EX-001,1/7/2026 10:05,1/7/2026 10:26,20.51,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,
+DT-00088,PR-007-B,EX-001,1/7/2026 14:20,1/7/2026 14:51,31.38,Mechanical,Gearbox vibration,Availability,Unplanned,OP-011,
+DT-00089,PR-007-B,EX-001,1/7/2026 16:12,1/7/2026 16:17,4.91,Mechanical,Bearing temperature high,Availability,Unplanned,OP-004,
+DT-00090,PR-007-B,EX-001,1/7/2026 16:50,1/7/2026 17:30,39.45,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00091,PR-007-B,EX-001,1/7/2026 17:52,1/7/2026 18:11,18.93,Material,Resin feed interruption,Availability,Unplanned,OP-001,
+DT-00094,PR-008-A,EX-001,1/8/2026 6:03,1/8/2026 6:14,11.18,Electrical,Heater circuit fault,Availability,Unplanned,OP-009,
+DT-00095,PR-008-A,EX-001,1/8/2026 7:24,1/8/2026 8:19,54.83,Changeover,Material grade change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00096,PR-008-A,EX-001,1/8/2026 9:03,1/8/2026 10:21,77.76,Mechanical,Bearing temperature high,Availability,Unplanned,OP-008,
+DT-00098,PR-008-A,EX-001,1/8/2026 11:21,1/8/2026 11:22,1.12,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-007,
+DT-00099,PR-008-B,EX-001,1/8/2026 15:31,1/8/2026 15:51,19.96,Mechanical,Drive coupling failure,Availability,Unplanned,OP-012,
+DT-00103,PR-008-B,EX-001,1/8/2026 18:17,1/8/2026 18:19,2.39,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00104,PR-008-C,EX-001,1/8/2026 23:06,1/8/2026 23:44,38.5,Changeover,Product specification change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00105,PR-008-C,EX-001,1/9/2026 0:21,1/9/2026 0:52,31.6,Changeover,Product specification change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00106,PR-008-C,EX-001,1/9/2026 1:14,1/9/2026 1:25,11.52,Process,Melt temperature instability,Availability,Unplanned,OP-007,
+DT-00107,PR-008-C,EX-001,1/9/2026 1:54,1/9/2026 2:05,11.04,Process,Dimensional adjustment,Availability,Unplanned,OP-005,
+DT-00109,PR-009-A,EX-001,1/9/2026 7:13,1/9/2026 7:48,34.9,Mechanical,Gearbox vibration,Availability,Unplanned,OP-010,
+DT-00110,PR-009-A,EX-001,1/9/2026 8:34,1/9/2026 8:52,18.3,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00111,PR-009-A,EX-001,1/9/2026 8:55,1/9/2026 9:00,4.83,Material,Resin feed interruption,Availability,Unplanned,OP-012,
+DT-00114,PR-009-A,EX-001,1/9/2026 9:56,1/9/2026 9:58,1.42,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-001,
+DT-00115,PR-009-B,EX-001,1/9/2026 15:21,1/9/2026 15:42,20.88,Process,Pressure instability,Availability,Unplanned,OP-011,
+DT-00116,PR-009-B,EX-001,1/9/2026 15:51,1/9/2026 16:06,14.81,Material,,Availability,Unplanned,OP-001,
+DT-00117,PR-009-B,EX-001,1/9/2026 16:30,1/9/2026 16:31,0.65,Minor Stops,Short material bridge,Performance,Unplanned,OP-003,
+DT-00118,PR-009-B,EX-001,1/9/2026 17:11,1/9/2026 17:13,1.41,Minor Stops,Short material bridge,Performance,Unplanned,OP-003,
+DT-00119,PR-009-C,EX-001,1/9/2026 23:01,1/9/2026 23:43,42.45,Material,Material not staged,Availability,Unplanned,OP-008,
+DT-00120,PR-009-C,EX-001,1/10/2026 0:22,1/10/2026 1:23,60.38,Mechanical,Drive coupling failure,Availability,Unplanned,OP-009,
+DT-00126,PR-010-A,EX-001,1/10/2026 9:36,1/10/2026 10:08,31.98,Material,Resin feed interruption,Availability,Unplanned,OP-002,
+DT-00128,PR-010-B,EX-001,1/10/2026 14:59,1/10/2026 15:16,16.79,Process,Pressure instability,Availability,Unplanned,OP-010,
+DT-00129,PR-010-B,EX-001,1/10/2026 15:50,1/10/2026 15:56,6.51,Quality,Defect investigation,Availability,Unplanned,OP-001,
+DT-00130,PR-010-B,EX-001,1/10/2026 16:07,1/10/2026 16:34,26.82,Electrical,Control panel reset,Availability,Unplanned,OP-011,
+DT-00131,PR-010-B,EX-001,1/10/2026 16:52,1/10/2026 17:53,60.93,Material,Resin feed interruption,Availability,Unplanned,OP-007,
+DT-00132,PR-010-B,EX-001,1/10/2026 18:29,1/10/2026 18:30,1,Minor Stops,,Performance,Unplanned,OP-001,
+DT-00135,PR-010-C,EX-001,1/10/2026 22:26,1/10/2026 22:51,25.26,Changeover,Product specification change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00137,PR-010-C,EX-001,1/11/2026 0:27,1/11/2026 0:30,2.99,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00139,PR-011-A,EX-001,1/11/2026 6:16,1/11/2026 6:50,34.66,Changeover,Color/purge change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00141,PR-011-B,EX-001,1/11/2026 14:13,1/11/2026 14:54,40.13,Changeover,Material grade change ,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00142,PR-011-B,EX-001,1/11/2026 15:38,1/11/2026 16:18,40.08,Changeover,Color/purge change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00143,PR-011-B,EX-001,1/11/2026 16:43,1/11/2026 17:08,25.02,Process,Die buildup requiring stop,Availability,Unplanned,OP-006,
+DT-00144,PR-011-B,EX-001,1/11/2026 17:31,1/11/2026 18:11,39.74,Changeover,Color/purge change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00145,PR-011-B,EX-001,1/11/2026 18:36,1/11/2026 19:06,29.7,Changeover,,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00146,PR-011-B,EX-001,1/11/2026 19:30,1/11/2026 19:33,2.57,Minor Stops,Short material bridge ,Performance,Unplanned,OP-012,
+DT-00149,PR-011-C,EX-001,1/11/2026 23:35,1/12/2026 0:15,39.45,Changeover,Color/purge change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00150,PR-011-C,EX-001,1/12/2026 0:21,1/12/2026 1:03,42.26,Changeover,Product specification change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00151,PR-011-C,EX-001,1/12/2026 1:16,1/12/2026 1:19,2.88,Minor Stops,momentary line speed interruption,Performance,Unplanned,OP-008,
+DT-00153,PR-012-A,EX-001,1/12/2026 7:19,1/12/2026 7:27,8.38,Quality,Defect investigation,Availability,Unplanned,OP-009,
+DT-00154,PR-012-A,EX-001,1/12/2026 7:33,1/12/2026 7:43,9.92,Process,Die buildup requiring stop,Availability,Unplanned,OP-003,
+DT-00155,PR-012-A,EX-001,1/12/2026 8:54,1/12/2026 8:56,1.23,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-011,
+DT-00157,PR-012-A,EX-001,1/12/2026 9:50,1/12/2026 9:51,0.96,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-007,
+DT-00158,PR-012-B,EX-001,1/12/2026 14:52,1/12/2026 15:14,21.44,Mechanical,Bearing temperature high,Availability,Unplanned,OP-003,
+DT-00159,PR-012-B,EX-001,1/12/2026 15:29,1/12/2026 15:37,8.34,Material,Material lot verification hold,Availability,Unplanned,OP-004,
+DT-00160,PR-012-B,EX-001,1/12/2026 16:24,1/12/2026 16:29,4.57,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-00161,PR-012-B,EX-001,1/12/2026 16:40,1/12/2026 17:00,20.71,Quality,Defect investigation,Availability,Unplanned,OP-003,
+DT-00162,PR-012-B,EX-001,1/12/2026 17:31,1/12/2026 18:25,53.66,Mechanical,Screw drive fault,Availability,Unplanned,OP-005,
+DT-00165,PR-012-C,EX-001,1/13/2026 1:16,1/13/2026 1:52,36.03,Mechanical,Bearing temperature high,Availability,Unplanned,OP-001,
+DT-00166,PR-013-A,EX-001,1/13/2026 6:40,1/13/2026 7:23,42.56,Changeover,,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00167,PR-013-B,EX-001,1/13/2026 15:37,1/13/2026 15:39,2.43,Electrical,Heater circuit fault,Availability,Unplanned,OP-001,
+DT-00168,PR-013-B,EX-001,1/13/2026 16:26,1/13/2026 16:54,28.21,Material,Material not staged,Availability,Unplanned,,
+DT-00169,PR-013-B,EX-001,1/13/2026 17:04,1/13/2026 17:13,8.32,Mechanical,Drive coupling failure,Availability,Unplanned,OP-010,
+DT-00170,PR-013-B,EX-001,1/13/2026 18:26,1/13/2026 18:29,2.92,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-003,
+DT-00171,PR-013-C,EX-001,1/13/2026 22:29,1/13/2026 22:56,26.44,Process,Dimensional adjustment,Availability,Unplanned,OP-012,
+DT-00172,PR-013-C,EX-001,1/14/2026 0:35,1/14/2026 0:59,24.06,Process,Dimensional adjustment,Availability,Unplanned,OP-002,
+DT-00177,PR-014-A,EX-001,1/14/2026 9:07,1/14/2026 9:08,0.4,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-007,
+DT-00178,PR-014-B,EX-001,1/14/2026 15:12,1/14/2026 15:17,4.92,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-00179,PR-014-B,EX-001,1/14/2026 15:33,1/14/2026 15:36,2.28,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-008,
+DT-00184,PR-014-C,EX-001,1/14/2026 23:00,1/14/2026 23:06,6.77,Quality,Defect investigation,Availability,Unplanned,OP-010,
+DT-00188,PR-015-A,EX-001,1/15/2026 6:59,1/15/2026 7:06,7.22,Material,Resin feed interruption,Availability,Unplanned,OP-001,
+DT-00189,PR-015-A,EX-001,1/15/2026 8:03,1/15/2026 8:22,19.17,Changeover,Color/purge change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00190,PR-015-A,EX-001,1/15/2026 9:21,1/15/2026 9:35,13.8,Quality,In-process inspection hold,Availability,Unplanned,OP-006,
+DT-00191,PR-015-A,EX-001,1/15/2026 10:23,1/15/2026 10:41,18.08,Quality,Quality hold,Availability,Unplanned,OP-007,
+DT-00193,PR-015-B,EX-001,1/15/2026 14:41,1/15/2026 15:11,29.93,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00194,PR-015-B,EX-001,1/15/2026 16:35,1/15/2026 16:37,2.1,Material,Material not staged,Availability,Unplanned,OP-005,
+DT-00195,PR-015-B,EX-001,1/15/2026 17:18,1/15/2026 17:25,7.23,Process,Melt temperature instability,Availability,Unplanned,OP-011,
+DT-00198,PR-015-C,EX-001,1/15/2026 23:03,1/15/2026 23:27,24.71,Electrical,Motor overload trip,Availability,Unplanned,OP-006,
+DT-00199,PR-015-C,EX-001,1/16/2026 0:17,1/16/2026 0:19,1.43,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-002,
+DT-00200,PR-015-C,EX-001,1/16/2026 1:25,1/16/2026 1:26,0.77,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-00203,PR-016-A,EX-001,1/16/2026 7:43,1/16/2026 8:32,49.24,Mechanical,Gearbox vibration,Availability,Unplanned,OP-005,
+DT-00206,PR-016-B,EX-001,1/16/2026 14:13,1/16/2026 14:30,16.5,Material,Material not staged,Availability,Unplanned,OP-010,
+DT-00207,PR-016-B,EX-001,1/16/2026 14:37,1/16/2026 15:10,33.12,Quality,Defect investigation,Availability,Unplanned,OP-011,
+DT-00208,PR-016-B,EX-001,1/16/2026 15:54,1/16/2026 15:56,1.15,Minor Stops,Short material bridge,Performance,Unplanned,OP-006,
+DT-00210,PR-016-B,EX-001,1/16/2026 17:28,1/16/2026 17:30,1.22,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-001,
+DT-00212,PR-016-B,EX-001,1/16/2026 18:31,1/16/2026 18:32,0.68,Minor Stops,Short material bridge,Performance,Unplanned,OP-002,
+DT-00213,PR-016-C,EX-001,1/16/2026 22:39,1/16/2026 23:06,27.46,Material,Material lot verification hold,Availability,Unplanned,OP-010,
+DT-00214,PR-016-C,EX-001,1/16/2026 23:38,1/16/2026 23:58,19.61,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,
+DT-00215,PR-016-C,EX-001,1/17/2026 0:25,1/17/2026 0:29,4.26,Quality,defect investigation,Availability,Unplanned,OP-011,
+DT-00216,PR-016-C,EX-001,1/17/2026 0:44,1/17/2026 1:32,48.23,Changeover,Product specification change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00219,PR-017-A,EX-001,1/17/2026 6:53,1/17/2026 7:47,54.06,Changeover,Material grade change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00220,PR-017-A,EX-001,1/17/2026 7:54,1/17/2026 8:39,44.75,Changeover,,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00223,PR-017-B,EX-001,1/17/2026 14:26,1/17/2026 14:47,20.85,Changeover,Material grade change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-00224,PR-017-B,EX-001,1/17/2026 15:43,1/17/2026 16:31,48.27,Mechanical,Gearbox vibration,Availability,Unplanned,OP-004,
+DT-00225,PR-017-B,EX-001,1/17/2026 16:39,1/17/2026 16:41,2.17,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-009,
+DT-00227,PR-017-B,EX-001,1/17/2026 17:13,1/17/2026 17:14,0.72,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-012,
+DT-00229,PR-017-C,EX-001,1/17/2026 23:42,1/18/2026 0:29,46.5,Quality,,Availability,Unplanned,OP-010,
+DT-00231,PR-017-C,EX-001,1/18/2026 1:40,1/18/2026 1:43,2.56,Minor Stops,,Performance,Unplanned,OP-009,
+DT-00232,PR-018-A,EX-001,1/18/2026 6:29,1/18/2026 7:15,46.57,Changeover,Material grade change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00236,PR-018-B,EX-001,1/18/2026 14:42,1/18/2026 15:01,19.22,Material,Resin feed interruption,Availability,Unplanned,OP-009,
+DT-00237,PR-018-B,EX-001,1/18/2026 15:17,1/18/2026 15:34,17.22,Electrical,Heater circuit fault,Availability,Unplanned,OP-008,
+DT-00238,PR-018-B,EX-001,1/18/2026 16:25,1/18/2026 16:54,28.48,Process,Die buildup requiring stop,Availability,Unplanned,OP-002,
+DT-00239,PR-018-B,EX-001,1/18/2026 17:13,1/18/2026 17:28,14.36,Process,Dimensional adjustment,Availability,Unplanned,OP-001,
+DT-00240,PR-018-B,EX-001,1/18/2026 17:40,1/18/2026 17:43,2.78,Minor Stops,Short material bridge,Performance,Unplanned,OP-005,
+DT-00243,PR-018-C,EX-001,1/18/2026 22:20,1/18/2026 22:21,0.7,Minor Stops,Short material bridge,Performance,Unplanned,OP-004,
+DT-00248,PR-019-A,EX-001,1/19/2026 6:02,1/19/2026 6:11,9.54,Quality,Quality hold,Availability,Unplanned,OP-003,
+DT-00249,PR-019-B,EX-001,1/19/2026 14:28,1/19/2026 14:42,14.12,Process,Dimensional adjustment,Availability,Unplanned,OP-002,
+DT-00250,PR-019-B,EX-001,1/19/2026 15:21,1/19/2026 15:45,23.34,Changeover,Color/purge change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00251,PR-019-B,EX-001,1/19/2026 16:29,1/19/2026 16:50,21.12,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00252,PR-019-B,EX-001,1/19/2026 17:09,1/19/2026 17:33,23.53,Electrical,Motor overload trip,Availability,Unplanned,OP-005,
+DT-00259,PR-020-A,EX-001,1/20/2026 7:02,1/20/2026 7:09,6.68,Material,Resin feed interruption,Availability,Unplanned,OP-009,
+DT-00260,PR-020-A,EX-001,1/20/2026 7:43,1/20/2026 8:22,39.24,Material,material not staged,Availability,Unplanned,OP-009,
+DT-00262,PR-020-B,EX-001,1/20/2026 14:52,1/20/2026 14:57,4.58,Quality,In-process inspection hold,Availability,Unplanned,OP-002,
+DT-00263,PR-020-B,EX-001,1/20/2026 15:01,1/20/2026 15:19,17.37,Process,Melt temperature instability,Availability,Unplanned,OP-007,
+DT-00264,PR-020-B,EX-001,1/20/2026 15:46,1/20/2026 15:59,12.71,Material,Material lot verification hold,Availability,Unplanned,OP-005,
+DT-00265,PR-020-B,EX-001,1/20/2026 16:29,1/20/2026 16:40,11.4,Electrical,Heater circuit fault,Availability,Unplanned,OP-004,
+DT-00266,PR-020-B,EX-001,1/20/2026 17:24,1/20/2026 18:01,36.4,Material,Material not staged,Availability,Unplanned,OP-002,
+DT-00269,PR-020-C,EX-001,1/20/2026 22:57,1/20/2026 23:25,28.57,Mechanical,Gearbox vibration,Availability,Unplanned,OP-006,
+DT-00270,PR-020-C,EX-001,1/20/2026 23:59,1/21/2026 0:03,3.67,Quality,In-process inspection hold,Availability,Unplanned,OP-002,
+DT-00271,PR-020-C,EX-001,1/21/2026 0:34,1/21/2026 0:37,2.73,Process,Die buildup requiring stop,Availability,Unplanned,OP-007,
+DT-00272,PR-020-C,EX-001,1/21/2026 1:21,1/21/2026 2:09,48.02,Process,Melt temperature instability,Availability,Unplanned,OP-002,
+DT-00274,PR-021-A,EX-001,1/21/2026 8:58,1/21/2026 9:05,6.66,Mechanical,Screw drive fault,Availability,Unplanned,OP-006,
+DT-00275,PR-021-A,EX-001,1/21/2026 9:10,1/21/2026 9:14,4.82,Material,Material lot verification hold,Availability,Unplanned,OP-010,
+DT-00276,PR-021-B,EX-001,1/21/2026 14:56,1/21/2026 15:40,43.59,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,
+DT-00277,PR-021-B,EX-001,1/21/2026 16:01,1/21/2026 16:56,54.09,Quality,In-process inspection hold,Availability,Unplanned,OP-007,
+DT-00280,PR-021-C,EX-001,1/21/2026 22:00,1/21/2026 22:02,2,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-00281,PR-021-C,EX-001,1/21/2026 23:21,1/21/2026 23:44,23.52,Changeover,Color/purge change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00282,PR-021-C,EX-001,1/22/2026 0:22,1/22/2026 0:46,24.09,Changeover,Material grade change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00284,PR-022-A,EX-001,1/22/2026 6:44,1/22/2026 7:09,25.02,Quality,Quality hold,Availability,Unplanned,OP-007,
+DT-00288,PR-022-A,EX-001,1/22/2026 10:23,1/22/2026 10:24,1.17,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-002,
+DT-00289,PR-022-B,EX-001,1/22/2026 14:04,1/22/2026 14:17,12.46,Material,Resin feed interruption,Availability,Unplanned,OP-002,
+DT-00290,PR-022-B,EX-001,1/22/2026 15:11,1/22/2026 15:25,13.75,Mechanical,Drive coupling failure,Availability,Unplanned,OP-011,
+DT-00291,PR-022-B,EX-001,1/22/2026 16:01,1/22/2026 16:23,21.47,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00295,PR-022-C,EX-001,1/22/2026 23:47,1/23/2026 0:09,21.53,Changeover,Color/purge change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-00296,PR-022-C,EX-001,1/23/2026 1:18,1/23/2026 1:47,29.21,Material,Material not staged,Availability,Unplanned,OP-009,
+DT-00298,PR-023-A,EX-001,1/23/2026 9:44,1/23/2026 10:13,29.69,Process,Pressure instability,Availability,Unplanned,OP-008,
+DT-00300,PR-023-B,EX-001,1/23/2026 14:15,1/23/2026 14:31,15.95,Material,Material not staged,Availability,Unplanned,OP-011,
+DT-00301,PR-023-B,EX-001,1/23/2026 14:59,1/23/2026 15:19,20.05,Mechanical,Bearing temperature high,Availability,Unplanned,OP-006,
+DT-00302,PR-023-B,EX-001,1/23/2026 15:46,1/23/2026 16:22,36.81,Material,Resin feed interruption,Availability,Unplanned,OP-008,
+DT-00303,PR-023-B,EX-001,1/23/2026 16:36,1/23/2026 16:58,22,Process,Pressure instability,Availability,Unplanned,OP-009,
+DT-00304,PR-023-B,EX-001,1/23/2026 17:22,1/23/2026 17:53,30.98,Mechanical,gearbox vibration,Availability,Unplanned,OP-002,
+DT-00305,PR-023-B,EX-001,1/23/2026 18:14,1/23/2026 19:02,48.5,Changeover,Material grade change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00306,PR-023-B,EX-001,1/23/2026 19:11,1/23/2026 19:16,5.1,Electrical,Control panel reset,Availability,Unplanned,OP-005,
+DT-00307,PR-023-B,EX-001,1/23/2026 19:23,1/23/2026 19:24,0.59,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-009,
+DT-00309,PR-023-B,EX-001,1/23/2026 19:50,1/23/2026 19:52,2.2,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00312,PR-023-C,EX-001,1/23/2026 23:39,1/24/2026 0:16,36.98,Process,Pressure instability,Availability,Unplanned,OP-012,
+DT-00313,PR-023-C,EX-001,1/24/2026 0:41,1/24/2026 1:26,45.09,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-00314,PR-023-C,EX-001,1/24/2026 1:41,1/24/2026 2:06,24.7,Changeover,Material grade change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-00316,PR-024-A,EX-001,1/24/2026 6:02,1/24/2026 7:11,69.21,Mechanical,Drive coupling failure,Availability,Unplanned,OP-011,
+DT-00317,PR-024-A,EX-001,1/24/2026 7:26,1/24/2026 7:32,5.86,Quality,Quality hold,Availability,Unplanned,OP-008,
+DT-00318,PR-024-A,EX-001,1/24/2026 7:52,1/24/2026 7:57,5.09,Quality,In-process inspection hold,Availability,Unplanned,OP-004,
+DT-00319,PR-024-A,EX-001,1/24/2026 8:11,1/24/2026 8:31,20.58,Process,Melt temperature instability,Availability,Unplanned,,
+DT-00320,PR-024-A,EX-001,1/24/2026 8:46,1/24/2026 8:58,11.4,Quality,In-process inspection hold,Availability,Unplanned,OP-003,
+DT-00321,PR-024-A,EX-001,1/24/2026 9:08,1/24/2026 9:22,13.9,Material,,Availability,Unplanned,OP-010,
+DT-00325,PR-024-B,EX-001,1/24/2026 14:06,1/24/2026 14:26,19.71,Process,Dimensional adjustment,Availability,Unplanned,OP-005,
+DT-00326,PR-024-B,EX-001,1/24/2026 14:42,1/24/2026 14:44,2,Material,Resin feed interruption,Availability,Unplanned,OP-006,
+DT-00327,PR-024-B,EX-001,1/24/2026 15:09,1/24/2026 15:18,9.29,Quality,Defect investigation,Availability,Unplanned,OP-004,
+DT-00328,PR-024-B,EX-001,1/24/2026 15:57,1/24/2026 16:09,11.26,Material,Material lot verification hold,Availability,Unplanned,OP-011,
+DT-00329,PR-024-B,EX-001,1/24/2026 16:39,1/24/2026 17:05,25.89,Material,Material not staged,Availability,Unplanned,OP-011,
+DT-00330,PR-024-B,EX-001,1/24/2026 17:12,1/24/2026 17:28,15.85,Mechanical,Drive coupling failure,Availability,Unplanned,OP-011,
+DT-00331,PR-024-B,EX-001,1/24/2026 17:43,1/24/2026 18:46,62.72,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,
+DT-00333,PR-024-B,EX-001,1/24/2026 19:27,1/24/2026 19:29,1.99,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-005,
+DT-00335,PR-024-C,EX-001,1/24/2026 22:43,1/24/2026 23:11,27.94,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00336,PR-024-C,EX-001,1/25/2026 0:09,1/25/2026 0:36,26.52,Quality,,Availability,Unplanned,OP-002,
+DT-00337,PR-024-C,EX-001,1/25/2026 1:21,1/25/2026 1:26,4.53,Material,Material lot verification hold ,Availability,Unplanned,OP-001,
+DT-00343,PR-025-B,EX-001,1/25/2026 14:03,1/25/2026 14:27,24.04,Changeover,Product specification change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00344,PR-025-B,EX-001,1/25/2026 15:29,1/25/2026 17:09,100.3,Mechanical,Screw drive fault,Availability,Unplanned,OP-011,
+DT-00347,PR-025-B,EX-001,1/25/2026 18:22,1/25/2026 18:23,1.53,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-007,
+DT-00351,PR-025-C,EX-001,1/26/2026 2:55,1/26/2026 2:56,1,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-00352,PR-026-A,EX-001,1/26/2026 6:47,1/26/2026 7:07,19.93,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-00357,PR-026-B,EX-001,1/26/2026 14:55,1/26/2026 15:33,37.79,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00358,PR-026-B,EX-001,1/26/2026 16:18,1/26/2026 16:53,34.15,Changeover,Color/purge change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00359,PR-026-B,EX-001,1/26/2026 17:34,1/26/2026 18:36,62.28,Mechanical,Screw drive fault,Availability,Unplanned,OP-003,
+DT-00360,PR-026-B,EX-001,1/26/2026 19:13,1/26/2026 19:45,32.31,Changeover,Color/purge change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-00361,PR-026-B,EX-001,1/26/2026 20:00,1/26/2026 20:27,27.17,Process,Die buildup requiring stop,Availability,Unplanned,OP-007,
+DT-00362,PR-026-C,EX-001,1/26/2026 23:08,1/26/2026 23:11,2.58,Mechanical,Screw drive fault,Availability,Unplanned,OP-003,
+DT-00363,PR-026-C,EX-001,1/27/2026 0:24,1/27/2026 0:50,26.01,Mechanical,Drive coupling failure,Availability,Unplanned,OP-007,
+DT-00364,PR-026-C,EX-001,1/27/2026 1:08,1/27/2026 1:08,0.48,Minor Stops,Short material bridge,Performance,Unplanned,OP-007,
+DT-00366,PR-027-A,EX-001,1/27/2026 6:37,1/27/2026 6:45,8.13,Quality,Defect investigation,Availability,Unplanned,OP-003,
+DT-00368,PR-027-B,EX-001,1/27/2026 15:06,1/27/2026 15:22,16.08,Quality,Quality hold,Availability,Unplanned,OP-007,
+DT-00369,PR-027-B,EX-001,1/27/2026 15:38,1/27/2026 15:40,2.15,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-00370,PR-027-B,EX-001,1/27/2026 15:51,1/27/2026 16:01,10.54,Process,Pressure instability,Availability,Unplanned,OP-006,
+DT-00371,PR-027-B,EX-001,1/27/2026 16:45,1/27/2026 17:04,19.37,Changeover,Material grade change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-00372,PR-027-B,EX-001,1/27/2026 17:08,1/27/2026 17:30,21.91,Quality,In-process inspection hold,Availability,Unplanned,,
+DT-00375,PR-027-C,EX-001,1/27/2026 22:46,1/27/2026 23:14,27.29,Material,,Availability,Unplanned,OP-010,
+DT-00376,PR-027-C,EX-001,1/27/2026 23:32,1/27/2026 23:33,1.21,Minor Stops,Short material bridge,Performance,Unplanned,OP-003,
+DT-00377,PR-027-C,EX-001,1/28/2026 1:37,1/28/2026 1:40,2.92,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-00378,PR-028-A,EX-001,1/28/2026 6:28,1/28/2026 6:35,7.06,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-00379,PR-028-A,EX-001,1/28/2026 7:10,1/28/2026 7:22,12.01,Material,Resin feed interruption,Availability,Unplanned,OP-001,
+DT-00381,PR-028-B,EX-001,1/28/2026 14:28,1/28/2026 14:46,18.54,Electrical,Heater circuit fault,Availability,Unplanned,OP-003,
+DT-00382,PR-028-B,EX-001,1/28/2026 15:08,1/28/2026 16:53,105,Mechanical,Gearbox vibration,Availability,Unplanned,OP-004,
+DT-00383,PR-028-B,EX-001,1/28/2026 17:25,1/28/2026 17:39,14.61,Material,Resin feed interruption,Availability,Unplanned,OP-006,
+DT-00384,PR-028-B,EX-001,1/28/2026 17:57,1/28/2026 18:31,33.95,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00386,PR-028-B,EX-001,1/28/2026 19:03,1/28/2026 19:04,0.74,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00389,PR-028-C,EX-001,1/28/2026 22:24,1/28/2026 22:40,16.16,Mechanical,Drive coupling failure,Availability,Unplanned,OP-011,
+DT-00390,PR-028-C,EX-001,1/28/2026 23:27,1/28/2026 23:45,18.28,Quality,Defect investigation,Availability,Unplanned,OP-006,
+DT-00391,PR-028-C,EX-001,1/29/2026 0:09,1/29/2026 0:11,2,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-00392,PR-028-C,EX-001,1/29/2026 0:22,1/29/2026 0:27,4.49,Process,Die buildup requiring stop,Availability,Unplanned,OP-010,
+DT-00393,PR-028-C,EX-001,1/29/2026 0:50,1/29/2026 1:20,29.71,Material,,Availability,Unplanned,OP-002,
+DT-00394,PR-028-C,EX-001,1/29/2026 1:48,1/29/2026 2:19,30.2,Process,Pressure instability,Availability,Unplanned,OP-001,
+DT-00395,PR-028-C,EX-001,1/29/2026 2:31,1/29/2026 2:46,15.24,Material,Material lot verification hold,Availability,Unplanned,OP-001,
+DT-00399,PR-029-A,EX-001,1/29/2026 6:24,1/29/2026 6:41,16.78,Quality,In-process inspection hold,Availability,Unplanned,OP-002,
+DT-00400,PR-029-A,EX-001,1/29/2026 7:23,1/29/2026 7:40,17.2,Electrical,Motor overload trip,Availability,Unplanned,OP-009,
+DT-00401,PR-029-A,EX-001,1/29/2026 8:22,1/29/2026 8:29,7.07,Quality,In-process inspection hold,Availability,Unplanned,OP-003,
+DT-00404,PR-029-B,EX-001,1/29/2026 14:19,1/29/2026 14:49,30.25,Changeover,Material grade change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00405,PR-029-B,EX-001,1/29/2026 15:08,1/29/2026 15:38,30.43,Mechanical,Drive coupling failure,Availability,Unplanned,OP-010,
+DT-00407,PR-029-B,EX-001,1/29/2026 16:46,1/29/2026 16:48,1.72,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-008,
+DT-00410,PR-029-C,EX-001,1/29/2026 22:52,1/29/2026 23:12,20.09,Quality,In-process inspection hold,Availability,Unplanned,OP-002,
+DT-00411,PR-029-C,EX-001,1/30/2026 0:00,1/30/2026 0:28,27.6,Material,Material lot verification hold,Availability,Unplanned,OP-010,
+DT-00412,PR-029-C,EX-001,1/30/2026 1:02,1/30/2026 1:11,8.48,Process,Dimensional adjustment,Availability,Unplanned,OP-008,
+DT-00415,PR-030-A,EX-001,1/30/2026 6:02,1/30/2026 6:33,31.09,Material,Resin feed interruption,Availability,Unplanned,OP-009,
+DT-00416,PR-030-A,EX-001,1/30/2026 7:09,1/30/2026 7:25,15.97,Process,Pressure instability,Availability,Unplanned,OP-010,
+DT-00421,PR-030-A,EX-001,1/30/2026 9:26,1/30/2026 9:28,2.06,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-011,
+DT-00422,PR-030-B,EX-001,1/30/2026 14:18,1/30/2026 15:28,69.58,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,
+DT-00423,PR-030-B,EX-001,1/30/2026 16:20,1/30/2026 17:01,40.78,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00424,PR-030-B,EX-001,1/30/2026 17:04,1/30/2026 18:10,65.49,Mechanical,Drive coupling failure,Availability,Unplanned,OP-002,
+DT-00425,PR-030-B,EX-001,1/30/2026 18:39,1/30/2026 18:52,12.84,Material,Resin feed interruption,Availability,Unplanned,OP-003,
+DT-00426,PR-030-B,EX-001,1/30/2026 19:02,1/30/2026 19:20,17.28,Material,Material lot verification hold,Availability,Unplanned,OP-007,
+DT-00428,PR-030-B,EX-001,1/30/2026 19:51,1/30/2026 19:52,0.97,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-011,
+DT-00429,PR-030-C,EX-001,1/30/2026 22:39,1/30/2026 23:05,26.5,Material,Resin feed interruption,Availability,Unplanned,OP-008,
+DT-00430,PR-030-C,EX-001,1/30/2026 23:24,1/30/2026 23:28,3.88,Quality,In-process inspection hold,Availability,Unplanned,OP-012,
+DT-00431,PR-030-C,EX-001,1/31/2026 0:00,1/31/2026 0:18,18.86,Mechanical,Screw drive fault,Availability,Unplanned,OP-003,
+DT-00432,PR-030-C,EX-001,1/31/2026 0:26,1/31/2026 1:31,65.63,Mechanical,Bearing temperature high,Availability,Unplanned,OP-005,
+DT-00433,PR-030-C,EX-001,1/31/2026 1:45,1/31/2026 2:23,37.68,Material,Resin feed interruption,Availability,Unplanned,OP-002,
+DT-00434,PR-030-C,EX-001,1/31/2026 2:40,1/31/2026 3:30,50.69,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00435,PR-030-C,EX-001,1/31/2026 3:46,1/31/2026 3:47,1.91,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-010,
+DT-00439,PR-031-A,EX-001,1/31/2026 7:00,1/31/2026 7:26,26.16,Mechanical,Bearing temperature high,Availability,Unplanned,OP-008,
+DT-00440,PR-031-A,EX-001,1/31/2026 7:39,1/31/2026 8:43,63.54,Mechanical,Drive coupling failure,Availability,Unplanned,OP-007,
+DT-00444,PR-031-B,EX-001,1/31/2026 14:11,1/31/2026 14:26,14.76,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-00445,PR-031-B,EX-001,1/31/2026 14:55,1/31/2026 15:34,38.45,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,
+DT-00446,PR-031-B,EX-001,1/31/2026 15:57,1/31/2026 16:54,56.94,Process,,Availability,Unplanned,OP-010,
+DT-00447,PR-031-B,EX-001,1/31/2026 17:02,1/31/2026 17:41,38.95,Mechanical,Drive coupling failure,Availability,Unplanned,OP-006,
+DT-00448,PR-031-B,EX-001,1/31/2026 17:47,1/31/2026 18:19,31.17,Changeover,Product specification change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00449,PR-031-B,EX-001,1/31/2026 18:38,1/31/2026 19:07,29.74,Changeover,Product specification change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00455,PR-031-C,EX-001,1/31/2026 22:49,1/31/2026 23:06,16.99,Material,,Availability,Unplanned,OP-012,
+DT-00459,PR-032-B,EX-001,2/1/2026 14:16,2/1/2026 14:21,5.27,Process,Pressure instability,Availability,Unplanned,OP-006,
+DT-00460,PR-032-B,EX-001,2/1/2026 14:51,2/1/2026 15:05,14.78,Quality,Quality hold,Availability,Unplanned,OP-001,
+DT-00461,PR-032-B,EX-001,2/1/2026 15:29,2/1/2026 16:06,37.23,Changeover,Color/purge change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00466,PR-032-C,EX-001,2/2/2026 1:42,2/2/2026 2:16,33.88,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00469,PR-033-B,EX-001,2/2/2026 14:54,2/2/2026 15:10,15.2,Process,Melt temperature instability,Availability,Unplanned,OP-004,
+DT-00470,PR-033-B,EX-001,2/2/2026 15:44,2/2/2026 16:26,42.16,Mechanical,Screw drive fault,Availability,Unplanned,OP-009,
+DT-00471,PR-033-B,EX-001,2/2/2026 16:45,2/2/2026 16:50,5.08,Process,Melt temperature instability,Availability,Unplanned,OP-003,
+DT-00472,PR-033-B,EX-001,2/2/2026 17:20,2/2/2026 18:47,86.28,Mechanical,Screw drive fault,Availability,Unplanned,OP-008,
+DT-00474,PR-033-B,EX-001,2/2/2026 19:14,2/2/2026 19:15,0.75,Minor Stops,,Performance,Unplanned,OP-009,
+DT-00475,PR-033-B,EX-001,2/2/2026 19:29,2/2/2026 19:32,2.58,Minor Stops,Short material bridge,Performance,Unplanned,OP-002,
+DT-00477,PR-033-C,EX-001,2/2/2026 22:40,2/2/2026 22:58,18.38,Mechanical,Gearbox vibration,Availability,Unplanned,OP-005,
+DT-00478,PR-033-C,EX-001,2/3/2026 1:16,2/3/2026 1:27,11.61,Electrical,Heater circuit fault,Availability,Unplanned,OP-010,
+DT-00480,PR-034-A,EX-001,2/3/2026 7:07,2/3/2026 8:22,74.67,Quality,In-process inspection hold,Availability,Unplanned,OP-008,
+DT-00481,PR-034-A,EX-001,2/3/2026 8:42,2/3/2026 9:06,24.32,Changeover,Color/purge change,Availability,Planned,OP-003,Changeover duration above expected standard
+DT-00482,PR-034-A,EX-001,2/3/2026 9:50,2/3/2026 9:51,1.03,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-011,
+DT-00485,PR-034-B,EX-001,2/3/2026 14:26,2/3/2026 15:01,34.98,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00486,PR-034-B,EX-001,2/3/2026 15:27,2/3/2026 15:47,19.41,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00487,PR-034-B,EX-001,2/3/2026 16:06,2/3/2026 16:29,22.95,Changeover,Product specification change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00488,PR-034-B,EX-001,2/3/2026 16:40,2/3/2026 16:55,14.96,Material,Material not staged,Availability,Unplanned,OP-003,
+DT-00489,PR-034-B,EX-001,2/3/2026 17:13,2/3/2026 17:42,28.92,Mechanical,Gearbox vibration,Availability,Unplanned,OP-008,
+DT-00492,PR-034-B,EX-001,2/3/2026 18:26,2/3/2026 18:27,0.71,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-009,
+DT-00500,PR-035-A,EX-001,2/4/2026 6:31,2/4/2026 7:53,81.31,Mechanical,Drive coupling failure,Availability,Unplanned,OP-005,
+DT-00501,PR-035-A,EX-001,2/4/2026 8:09,2/4/2026 8:27,17.89,Electrical,Heater circuit fault,Availability,Unplanned,OP-001,
+DT-00502,PR-035-A,EX-001,2/4/2026 8:37,2/4/2026 9:59,81.31,Mechanical,Gearbox vibration,Availability,Unplanned,OP-003,
+DT-00503,PR-035-A,EX-001,2/4/2026 10:29,2/4/2026 10:58,29.49,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00505,PR-035-A,EX-001,2/4/2026 11:29,2/4/2026 11:32,2.84,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00508,PR-035-B,EX-001,2/4/2026 14:36,2/4/2026 14:38,2.14,Material,Material not staged,Availability,Unplanned,OP-010,
+DT-00509,PR-035-B,EX-001,2/4/2026 15:57,2/4/2026 16:08,11.27,Material,Resin feed interruption,Availability,Unplanned,OP-002,
+DT-00513,PR-035-C,EX-001,2/5/2026 0:22,2/5/2026 0:31,9.07,Electrical,Heater circuit fault,Availability,Unplanned,OP-005,
+DT-00514,PR-035-C,EX-001,2/5/2026 2:05,2/5/2026 2:08,3.17,Material,Material lot verification hold,Availability,Unplanned,OP-007,
+DT-00515,PR-035-C,EX-001,2/5/2026 2:46,2/5/2026 2:48,2.32,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-001,
+DT-00516,PR-036-A,EX-001,2/5/2026 6:03,2/5/2026 6:27,23.97,Changeover,Product specification change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-00517,PR-036-A,EX-001,2/5/2026 7:48,2/5/2026 8:01,12.9,Process,Dimensional adjustment,Availability,Unplanned,OP-011,
+DT-00518,PR-036-A,EX-001,2/5/2026 8:34,2/5/2026 8:36,2.23,Minor Stops,,Performance,Unplanned,OP-008,
+DT-00520,PR-036-B,EX-001,2/5/2026 14:22,2/5/2026 15:02,39.61,Changeover,Material grade change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00521,PR-036-B,EX-001,2/5/2026 15:28,2/5/2026 16:00,31.39,Electrical,Motor overload trip,Availability,Unplanned,OP-002,
+DT-00522,PR-036-B,EX-001,2/5/2026 16:33,2/5/2026 17:12,38.57,Changeover,Product specification change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00523,PR-036-B,EX-001,2/5/2026 17:18,2/5/2026 18:01,42.74,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00524,PR-036-B,EX-001,2/5/2026 18:18,2/5/2026 18:33,15.11,Process,Die buildup requiring stop,Availability,Unplanned,OP-004,
+DT-00525,PR-036-B,EX-001,2/5/2026 18:46,2/5/2026 18:52,5.33,Process,Melt temperature instability,Availability,Unplanned,OP-010,
+DT-00526,PR-036-B,EX-001,2/5/2026 19:02,2/5/2026 19:39,37.25,Changeover,Product specification change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00532,PR-037-A,EX-001,2/6/2026 6:28,2/6/2026 6:43,14.95,Mechanical,Screw drive fault,Availability,Unplanned,OP-010,
+DT-00534,PR-037-A,EX-001,2/6/2026 8:34,2/6/2026 8:35,0.79,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-00537,PR-037-B,EX-001,2/6/2026 14:15,2/6/2026 14:28,13.05,Quality,,Availability,Unplanned,OP-009,
+DT-00538,PR-037-B,EX-001,2/6/2026 14:33,2/6/2026 14:53,19.73,Process,,Availability,Unplanned,OP-001,
+DT-00540,PR-037-B,EX-001,2/6/2026 16:21,2/6/2026 16:23,1.11,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-00544,PR-038-A,EX-001,2/7/2026 6:13,2/7/2026 6:21,8.69,Process,Pressure instability,Availability,Unplanned,,
+DT-00545,PR-038-A,EX-001,2/7/2026 7:08,2/7/2026 7:14,5.43,Process,Melt temperature instability,Availability,Unplanned,OP-001,
+DT-00546,PR-038-A,EX-001,2/7/2026 8:11,2/7/2026 8:40,29.5,Changeover,Color/purge change,Availability,Planned,,Changeover duration above expected standard
+DT-00547,PR-038-A,EX-001,2/7/2026 8:58,2/7/2026 9:06,8.39,Material,Resin feed interruption,Availability,Unplanned,OP-010,
+DT-00550,PR-038-B,EX-001,2/7/2026 14:50,2/7/2026 15:12,21.39,Changeover,Product specification change ,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00552,PR-038-B,EX-001,2/7/2026 16:06,2/7/2026 16:07,1.03,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-009,
+DT-00555,PR-038-C,EX-001,2/8/2026 0:00,2/8/2026 0:37,37.24,Mechanical,Gearbox vibration,Availability,Unplanned,OP-005,
+DT-00556,PR-038-C,EX-001,2/8/2026 1:59,2/8/2026 2:32,33.35,Material,Material not staged,Availability,Unplanned,OP-009,
+DT-00558,PR-039-A,EX-001,2/8/2026 7:13,2/8/2026 7:19,5.84,Mechanical,Drive coupling failure,Availability,Unplanned,OP-007,
+DT-00560,PR-039-A,EX-001,2/8/2026 9:00,2/8/2026 9:02,2.11,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-011,
+DT-00561,PR-039-A,EX-001,2/8/2026 9:29,2/8/2026 9:31,2.53,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-012,
+DT-00562,PR-039-A,EX-001,2/8/2026 9:57,2/8/2026 10:00,2.46,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-007,
+DT-00564,PR-039-B,EX-001,2/8/2026 14:28,2/8/2026 14:42,14.16,Electrical,Motor overload trip,Availability,Unplanned,OP-004,
+DT-00565,PR-039-B,EX-001,2/8/2026 15:05,2/8/2026 15:28,22.39,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00566,PR-039-B,EX-001,2/8/2026 15:30,2/8/2026 15:37,7.18,Mechanical,Gearbox vibration,Availability,Unplanned,OP-002,
+DT-00567,PR-039-B,EX-001,2/8/2026 16:12,2/8/2026 16:13,1.63,Minor Stops,Short material bridge,Performance,Unplanned,OP-007,
+DT-00573,PR-040-A,EX-001,2/9/2026 6:31,2/9/2026 6:47,16.67,Process,Dimensional adjustment,Availability,Unplanned,OP-012,
+DT-00574,PR-040-A,EX-001,2/9/2026 7:30,2/9/2026 7:48,17.51,Mechanical,Gearbox vibration,Availability,Unplanned,OP-010,
+DT-00577,PR-040-B,EX-001,2/9/2026 15:36,2/9/2026 15:40,3.39,Electrical,Heater circuit fault,Availability,Unplanned,OP-008,
+DT-00578,PR-040-B,EX-001,2/9/2026 16:52,2/9/2026 16:59,7.15,Process,Dimensional adjustment,Availability,Unplanned,OP-009,
+DT-00580,PR-040-C,EX-001,2/9/2026 22:52,2/9/2026 23:04,12.44,Mechanical,gearbox vibration,Availability,Unplanned,OP-005,
+DT-00581,PR-040-C,EX-001,2/9/2026 23:46,2/10/2026 1:31,105,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,
+DT-00582,PR-040-C,EX-001,2/10/2026 2:16,2/10/2026 2:22,5.93,Material,Resin feed interruption,Availability,Unplanned,OP-011,
+DT-00585,PR-041-A,EX-001,2/10/2026 6:19,2/10/2026 7:02,42.59,Changeover,Color/purge change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00586,PR-041-A,EX-001,2/10/2026 8:04,2/10/2026 8:20,16.57,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-00587,PR-041-A,EX-001,2/10/2026 9:09,2/10/2026 9:46,37.15,Changeover,Product specification change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-00590,PR-041-A,EX-001,2/10/2026 11:08,2/10/2026 11:09,0.84,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-00591,PR-041-B,EX-001,2/10/2026 15:05,2/10/2026 15:20,15.19,Process,Die buildup requiring stop,Availability,Unplanned,OP-001,
+DT-00592,PR-041-B,EX-001,2/10/2026 16:22,2/10/2026 16:41,18.34,Quality,Defect investigation,Availability,Unplanned,OP-006,
+DT-00593,PR-041-B,EX-001,2/10/2026 17:20,2/10/2026 17:34,13.75,Process,Dimensional adjustment,Availability,Unplanned,OP-010,
+DT-00594,PR-041-B,EX-001,2/10/2026 18:01,2/10/2026 18:25,24.78,Process,Pressure instability,Availability,Unplanned,OP-002,
+DT-00595,PR-041-B,EX-001,2/10/2026 18:53,2/10/2026 18:54,1.44,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00599,PR-042-A,EX-001,2/11/2026 6:18,2/11/2026 6:48,30.22,Mechanical,Screw drive fault,Availability,Unplanned,OP-009,
+DT-00600,PR-042-A,EX-001,2/11/2026 7:47,2/11/2026 8:00,12.89,Electrical,Control panel reset,Availability,Unplanned,OP-006,
+DT-00601,PR-042-A,EX-001,2/11/2026 9:49,2/11/2026 10:33,43.31,Changeover,Color/purge change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00602,PR-042-B,EX-001,2/11/2026 14:13,2/11/2026 14:34,21.86,Quality,Quality hold,Availability,Unplanned,OP-002,
+DT-00603,PR-042-B,EX-001,2/11/2026 14:51,2/11/2026 15:10,18.86,Process,Die buildup requiring stop,Availability,Unplanned,OP-003,
+DT-00604,PR-042-B,EX-001,2/11/2026 15:50,2/11/2026 16:45,54.31,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00605,PR-042-B,EX-001,2/11/2026 17:31,2/11/2026 17:41,9.64,Mechanical,Bearing temperature high,Availability,Unplanned,OP-001,
+DT-00606,PR-042-B,EX-001,2/11/2026 17:57,2/11/2026 18:35,37.85,Process,Die buildup requiring stop,Availability,Unplanned,OP-001,
+DT-00608,PR-042-B,EX-001,2/11/2026 19:01,2/11/2026 19:02,1.09,Minor Stops,,Performance,Unplanned,OP-009,
+DT-00609,PR-042-C,EX-001,2/12/2026 0:17,2/12/2026 0:24,6.37,Material,Material not staged,Availability,Unplanned,OP-008,
+DT-00611,PR-042-C,EX-001,2/12/2026 2:04,2/12/2026 2:06,1.85,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-006,
+DT-00612,PR-043-A,EX-001,2/12/2026 6:37,2/12/2026 7:00,22.71,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00613,PR-043-A,EX-001,2/12/2026 8:02,2/12/2026 8:20,18.05,Changeover,Material grade change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00614,PR-043-A,EX-001,2/12/2026 8:54,2/12/2026 9:53,59.57,Process,Pressure instability,Availability,Unplanned,OP-008,
+DT-00618,PR-043-B,EX-001,2/12/2026 15:08,2/12/2026 15:51,43.18,Electrical,Motor overload trip,Availability,Unplanned,OP-011,
+DT-00619,PR-043-B,EX-001,2/12/2026 16:05,2/12/2026 16:47,41.96,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00624,PR-043-C,EX-001,2/12/2026 22:59,2/12/2026 23:51,52.01,Mechanical,Gearbox vibration,Availability,Unplanned,OP-007,
+DT-00625,PR-043-C,EX-001,2/13/2026 0:24,2/13/2026 1:03,38.54,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,
+DT-00626,PR-043-C,EX-001,2/13/2026 2:11,2/13/2026 2:14,2.45,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00628,PR-044-A,EX-001,2/13/2026 9:29,2/13/2026 9:41,12.4,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-00629,PR-044-A,EX-001,2/13/2026 9:46,2/13/2026 10:13,26.9,Changeover,Material grade change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00630,PR-044-B,EX-001,2/13/2026 14:26,2/13/2026 14:49,23.72,Process,Dimensional adjustment,Availability,Unplanned,OP-012,
+DT-00631,PR-044-B,EX-001,2/13/2026 16:00,2/13/2026 16:27,26.8,Electrical,Motor overload trip,Availability,Unplanned,OP-012,
+DT-00632,PR-044-B,EX-001,2/13/2026 17:20,2/13/2026 17:37,16.53,Mechanical,Bearing temperature high,Availability,Unplanned,OP-010,
+DT-00633,PR-044-B,EX-001,2/13/2026 17:51,2/13/2026 18:01,10.06,Electrical,Heater circuit fault,Availability,Unplanned,OP-005,
+DT-00634,PR-044-B,EX-001,2/13/2026 18:14,2/13/2026 18:30,16.16,Process,Melt temperature instability,Availability,Unplanned,OP-010,
+DT-00636,PR-044-C,EX-001,2/14/2026 1:24,2/14/2026 1:27,2.57,Quality,Quality hold,Availability,Unplanned,OP-003,
+DT-00637,PR-044-C,EX-001,2/14/2026 2:51,2/14/2026 2:53,2.26,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-009,
+DT-00638,PR-045-A,EX-001,2/14/2026 7:01,2/14/2026 7:07,6.42,Electrical,Motor overload trip,Availability,Unplanned,OP-001,
+DT-00639,PR-045-A,EX-001,2/14/2026 7:27,2/14/2026 8:09,42.5,Mechanical,Screw drive fault,Availability,Unplanned,OP-007,
+DT-00640,PR-045-A,EX-001,2/14/2026 8:56,2/14/2026 9:21,24.67,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00644,PR-045-A,EX-001,2/14/2026 10:35,2/14/2026 10:37,1.63,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-011,
+DT-00645,PR-045-B,EX-001,2/14/2026 14:25,2/14/2026 14:48,22.54,Quality,Quality hold,Availability,Unplanned,OP-010,
+DT-00646,PR-045-B,EX-001,2/14/2026 15:33,2/14/2026 15:48,15.09,Quality,Defect investigation,Availability,Unplanned,OP-007,
+DT-00647,PR-045-B,EX-001,2/14/2026 16:26,2/14/2026 16:45,18.42,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00648,PR-045-B,EX-001,2/14/2026 17:13,2/14/2026 17:24,11.41,Electrical,Control panel reset,Availability,Unplanned,,
+DT-00649,PR-045-B,EX-001,2/14/2026 17:41,2/14/2026 17:55,14.17,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-00650,PR-045-B,EX-001,2/14/2026 18:08,2/14/2026 18:28,20.07,Changeover,Material grade change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00651,PR-045-B,EX-001,2/14/2026 18:48,2/14/2026 19:07,18.81,Process,melt temperature instability,Availability,Unplanned,OP-012,
+DT-00655,PR-045-C,EX-001,2/14/2026 22:45,2/14/2026 23:31,45.73,Mechanical,Gearbox vibration,Availability,Unplanned,OP-001,
+DT-00656,PR-045-C,EX-001,2/15/2026 0:50,2/15/2026 0:58,7.88,Quality,Defect investigation,Availability,Unplanned,OP-004,
+DT-00658,PR-046-A,EX-001,2/15/2026 13:25,2/15/2026 13:42,17.1,Process,Dimensional adjustment,Availability,Unplanned,OP-007,
+DT-00659,PR-046-B,EX-001,2/15/2026 14:36,2/15/2026 14:54,18.63,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00660,PR-046-B,EX-001,2/15/2026 15:33,2/15/2026 16:15,42.06,Mechanical,Bearing temperature high ,Availability,Unplanned,OP-010,
+DT-00661,PR-046-B,EX-001,2/15/2026 16:25,2/15/2026 16:35,9.63,Process,Dimensional adjustment,Availability,Unplanned,OP-003,
+DT-00662,PR-046-B,EX-001,2/15/2026 17:05,2/15/2026 17:28,22.93,Material,Material not staged,Availability,Unplanned,OP-007,
+DT-00663,PR-046-B,EX-001,2/15/2026 17:35,2/15/2026 17:49,13.09,Mechanical,Drive coupling failure,Availability,Unplanned,OP-002,
+DT-00664,PR-046-B,EX-001,2/15/2026 18:12,2/15/2026 18:38,25.67,Mechanical,Gearbox vibration,Availability,Unplanned,OP-001,
+DT-00665,PR-046-B,EX-001,2/15/2026 18:53,2/15/2026 19:42,48.93,Mechanical,Screw drive fault,Availability,Unplanned,OP-007,
+DT-00669,PR-046-C,EX-001,2/15/2026 23:50,2/16/2026 1:05,74.88,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,
+DT-00672,PR-047-A,EX-001,2/16/2026 7:29,2/16/2026 7:50,21.43,Quality,In-process inspection hold,Availability,Unplanned,OP-004,
+DT-00673,PR-047-A,EX-001,2/16/2026 8:00,2/16/2026 8:12,12.35,Quality,Quality hold,Availability,Unplanned,OP-008,
+DT-00676,PR-047-B,EX-001,2/16/2026 14:08,2/16/2026 14:51,42.75,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00677,PR-047-B,EX-001,2/16/2026 16:14,2/16/2026 16:27,13.01,Process,Die buildup requiring stop,Availability,Unplanned,OP-010,
+DT-00678,PR-047-B,EX-001,2/16/2026 17:06,2/16/2026 17:51,45.18,Changeover,Color/purge change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00679,PR-047-B,EX-001,2/16/2026 18:35,2/16/2026 18:36,0.97,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-002,
+DT-00681,PR-047-C,EX-001,2/16/2026 22:38,2/16/2026 22:52,13.8,Process,Die buildup requiring stop,Availability,Unplanned,OP-004,
+DT-00682,PR-047-C,EX-001,2/16/2026 23:55,2/17/2026 0:17,21.94,Electrical,Heater circuit fault,Availability,Unplanned,OP-008,
+DT-00683,PR-047-C,EX-001,2/17/2026 1:00,2/17/2026 1:35,35.05,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00684,PR-047-C,EX-001,2/17/2026 1:50,2/17/2026 2:04,14.29,Mechanical,Screw drive fault,Availability,Unplanned,OP-011,
+DT-00685,PR-047-C,EX-001,2/17/2026 2:09,2/17/2026 2:12,2.88,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-00687,PR-048-A,EX-001,2/17/2026 6:08,2/17/2026 6:58,49.84,Changeover,Color/purge change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00688,PR-048-A,EX-001,2/17/2026 7:30,2/17/2026 7:45,15.18,Mechanical,Bearing temperature high,Availability,Unplanned,OP-002,
+DT-00690,PR-048-B,EX-001,2/17/2026 14:48,2/17/2026 14:54,6.2,Process,Melt temperature instability,Availability,Unplanned,OP-001,
+DT-00691,PR-048-B,EX-001,2/17/2026 15:44,2/17/2026 15:51,6.96,Process,Die buildup requiring stop,Availability,Unplanned,OP-001,
+DT-00694,PR-048-B,EX-001,2/17/2026 17:48,2/17/2026 17:48,0.49,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-003,
+DT-00698,PR-048-C,EX-001,2/17/2026 22:15,2/17/2026 22:54,39.89,Process,Dimensional adjustment,Availability,Unplanned,OP-007,
+DT-00700,PR-048-C,EX-001,2/18/2026 1:21,2/18/2026 1:22,0.63,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-00701,PR-048-C,EX-001,2/18/2026 2:24,2/18/2026 2:26,2.73,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-008,
+DT-00702,PR-049-A,EX-001,2/18/2026 7:16,2/18/2026 7:59,43.39,Mechanical,,Availability,Unplanned,OP-009,
+DT-00703,PR-049-A,EX-001,2/18/2026 8:22,2/18/2026 8:23,1.05,Minor Stops,Short material bridge,Performance,Unplanned,OP-009,
+DT-00706,PR-049-B,EX-001,2/18/2026 14:46,2/18/2026 15:38,51.98,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00707,PR-049-B,EX-001,2/18/2026 15:57,2/18/2026 16:40,42.72,Changeover,Product specification change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00708,PR-049-B,EX-001,2/18/2026 16:53,2/18/2026 17:46,52.88,Changeover,Product specification change,Availability,Planned,OP-003,Changeover duration above expected standard
+DT-00709,PR-049-B,EX-001,2/18/2026 18:12,2/18/2026 18:51,38.45,Changeover,Material grade change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-00710,PR-049-B,EX-001,2/18/2026 19:09,2/18/2026 19:29,20.19,Mechanical,Gearbox vibration,Availability,Unplanned,OP-003,
+DT-00711,PR-049-B,EX-001,2/18/2026 19:44,2/18/2026 19:48,3.78,Electrical,Control panel reset,Availability,Unplanned,OP-009,
+DT-00715,PR-049-C,EX-001,2/18/2026 23:11,2/18/2026 23:16,4.35,Process,,Availability,Unplanned,OP-010,
+DT-00716,PR-049-C,EX-001,2/18/2026 23:31,2/18/2026 23:58,27.5,Process,Die buildup requiring stop,Availability,Unplanned,OP-004,
+DT-00717,PR-049-C,EX-001,2/19/2026 1:05,2/19/2026 1:36,31.45,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00720,PR-050-A,EX-001,2/19/2026 7:02,2/19/2026 8:03,61.16,Mechanical,Drive coupling failure,Availability,Unplanned,OP-005,
+DT-00722,PR-050-A,EX-001,2/19/2026 8:53,2/19/2026 8:54,0.81,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-001,
+DT-00724,PR-050-A,EX-001,2/19/2026 10:17,2/19/2026 10:19,2.32,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00725,PR-050-B,EX-001,2/19/2026 15:22,2/19/2026 15:40,18.3,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00726,PR-050-B,EX-001,2/19/2026 16:10,2/19/2026 16:48,37.95,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00730,PR-050-C,EX-001,2/19/2026 23:25,2/20/2026 0:13,47.47,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,
+DT-00731,PR-050-C,EX-001,2/20/2026 0:45,2/20/2026 1:02,17.41,Material,Material not staged,Availability,Unplanned,OP-006,
+DT-00735,PR-051-A,EX-001,2/20/2026 6:15,2/20/2026 6:39,24.21,Material,Resin feed interruption,Availability,Unplanned,OP-007,
+DT-00736,PR-051-A,EX-001,2/20/2026 7:17,2/20/2026 7:48,31.87,Process,Melt temperature instability,Availability,Unplanned,OP-002,
+DT-00737,PR-051-A,EX-001,2/20/2026 8:43,2/20/2026 8:50,7.33,Electrical,Heater circuit fault,Availability,Unplanned,OP-011,
+DT-00738,PR-051-A,EX-001,2/20/2026 9:20,2/20/2026 9:21,1.09,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-006,
+DT-00741,PR-051-B,EX-001,2/20/2026 14:08,2/20/2026 14:15,6.97,Process,Die buildup requiring stop,Availability,Unplanned,OP-002,
+DT-00742,PR-051-B,EX-001,2/20/2026 14:29,2/20/2026 14:33,3.87,Electrical,Heater circuit fault,Availability,Unplanned,OP-001,
+DT-00745,PR-051-B,EX-001,2/20/2026 15:49,2/20/2026 15:51,1.44,Minor Stops,,Performance,Unplanned,OP-010,
+DT-00746,PR-051-C,EX-001,2/20/2026 23:49,2/21/2026 0:04,14.83,Quality,Defect investigation,Availability,Unplanned,OP-005,
+DT-00747,PR-051-C,EX-001,2/21/2026 1:00,2/21/2026 1:30,29.9,Changeover,Product specification change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00750,PR-052-A,EX-001,2/21/2026 9:34,2/21/2026 9:46,11.64,Material,Material not staged,Availability,Unplanned,OP-005,
+DT-00751,PR-052-A,EX-001,2/21/2026 10:41,2/21/2026 10:53,11.06,Process,Dimensional adjustment,Availability,Unplanned,OP-005,
+DT-00752,PR-052-B,EX-001,2/21/2026 14:23,2/21/2026 15:01,38.21,Mechanical,,Availability,Unplanned,OP-008,
+DT-00753,PR-052-B,EX-001,2/21/2026 17:24,2/21/2026 17:28,4.62,Mechanical,Screw drive fault,Availability,Unplanned,OP-006,
+DT-00754,PR-052-C,EX-001,2/21/2026 22:40,2/21/2026 22:45,5.23,Electrical,Motor overload trip,Availability,Unplanned,OP-004,
+DT-00755,PR-052-C,EX-001,2/21/2026 23:03,2/21/2026 23:14,11.25,Process,Pressure instability,Availability,Unplanned,OP-006,
+DT-00756,PR-052-C,EX-001,2/22/2026 0:25,2/22/2026 0:28,2.89,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-001,
+DT-00758,PR-052-C,EX-001,2/22/2026 1:33,2/22/2026 1:34,1.07,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-006,
+DT-00759,PR-053-A,EX-001,2/22/2026 6:23,2/22/2026 6:28,5.37,Material,Resin feed interruption,Availability,Unplanned,OP-003,
+DT-00760,PR-053-B,EX-001,2/22/2026 14:32,2/22/2026 14:38,6.26,Electrical,,Availability,Unplanned,OP-003,
+DT-00761,PR-053-B,EX-001,2/22/2026 15:06,2/22/2026 15:10,3.43,Material,Material not staged,Availability,Unplanned,OP-009,
+DT-00762,PR-053-B,EX-001,2/22/2026 15:47,2/22/2026 15:56,9.01,Process,Die buildup requiring stop,Availability,Unplanned,OP-002,
+DT-00767,PR-053-C,EX-001,2/22/2026 22:59,2/22/2026 23:23,24.58,Changeover,Color/purge change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00768,PR-053-C,EX-001,2/23/2026 0:50,2/23/2026 1:06,15.9,Electrical,Control panel reset,Availability,Unplanned,OP-011,
+DT-00770,PR-053-C,EX-001,2/23/2026 1:52,2/23/2026 1:53,1.42,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-007,
+DT-00771,PR-054-A,EX-001,2/23/2026 6:39,2/23/2026 7:26,47.4,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,
+DT-00772,PR-054-A,EX-001,2/23/2026 7:58,2/23/2026 8:28,29.78,Changeover,Color/purge change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-00773,PR-054-A,EX-001,2/23/2026 8:53,2/23/2026 9:19,26.28,Mechanical,Screw drive fault,Availability,Unplanned,OP-003,
+DT-00779,PR-054-B,EX-001,2/23/2026 14:47,2/23/2026 15:19,31.36,Mechanical,Bearing temperature high,Availability,Unplanned,OP-001,
+DT-00780,PR-054-B,EX-001,2/23/2026 15:56,2/23/2026 16:17,21.31,Material,,Availability,Unplanned,OP-009,
+DT-00781,PR-054-B,EX-001,2/23/2026 16:44,2/23/2026 16:48,4.34,Process,Pressure instability,Availability,Unplanned,OP-005,
+DT-00788,PR-054-C,EX-001,2/23/2026 22:18,2/23/2026 22:37,18.69,Mechanical,Drive coupling failure,Availability,Unplanned,OP-002,
+DT-00789,PR-054-C,EX-001,2/23/2026 23:19,2/23/2026 23:51,32.16,Changeover,Material grade change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00793,PR-055-A,EX-001,2/24/2026 7:15,2/24/2026 7:19,3.82,Material,Resin feed interruption,Availability,Unplanned,OP-010,
+DT-00794,PR-055-A,EX-001,2/24/2026 7:46,2/24/2026 7:58,12.15,Electrical,Motor overload trip,Availability,Unplanned,OP-012,
+DT-00795,PR-055-B,EX-001,2/24/2026 14:14,2/24/2026 15:26,71.47,Mechanical,Screw drive fault,Availability,Unplanned,OP-006,
+DT-00796,PR-055-B,EX-001,2/24/2026 15:45,2/24/2026 16:33,48.36,Process,Melt temperature instability,Availability,Unplanned,OP-010,
+DT-00797,PR-055-B,EX-001,2/24/2026 16:42,2/24/2026 17:05,23.18,Material,Resin feed interruption,Availability,Unplanned,OP-012,
+DT-00798,PR-055-B,EX-001,2/24/2026 17:42,2/24/2026 17:49,6.91,Quality,Defect investigation,Availability,Unplanned,OP-002,
+DT-00799,PR-055-B,EX-001,2/24/2026 17:55,2/24/2026 18:24,29.04,Material,Resin feed interruption,Availability,Unplanned,OP-003,
+DT-00800,PR-055-B,EX-001,2/24/2026 18:49,2/24/2026 18:57,7.73,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00801,PR-055-B,EX-001,2/24/2026 19:22,2/24/2026 19:46,23.32,Mechanical,Screw drive fault,Availability,Unplanned,OP-006,
+DT-00802,PR-055-B,EX-001,2/24/2026 19:52,2/24/2026 19:53,1.05,Minor Stops,Short material bridge,Performance,Unplanned,OP-008,
+DT-00803,PR-055-C,EX-001,2/24/2026 22:52,2/24/2026 22:59,6.84,Material,Material not staged,Availability,Unplanned,OP-012,
+DT-00804,PR-055-C,EX-001,2/24/2026 23:32,2/24/2026 23:59,26.58,Process,Pressure instability,Availability,Unplanned,OP-011,
+DT-00808,PR-056-A,EX-001,2/25/2026 7:17,2/25/2026 7:50,32.84,Changeover,Color/purge change,Availability,Planned,OP-003,Changeover duration above expected standard
+DT-00811,PR-056-B,EX-001,2/25/2026 15:00,2/25/2026 15:02,2.34,Quality,In-process inspection hold,Availability,Unplanned,OP-007,
+DT-00812,PR-056-B,EX-001,2/25/2026 15:59,2/25/2026 16:23,24.08,Process,Melt temperature instability,Availability,Unplanned,OP-005,
+DT-00813,PR-056-B,EX-001,2/25/2026 17:06,2/25/2026 17:23,17.08,Mechanical,Screw drive fault,Availability,Unplanned,OP-010,
+DT-00814,PR-056-B,EX-001,2/25/2026 17:25,2/25/2026 17:46,21.78,Changeover,Material grade change,Availability,Planned,,Changeover duration above expected standard
+DT-00816,PR-056-B,EX-001,2/25/2026 19:05,2/25/2026 19:06,1.66,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00818,PR-056-C,EX-001,2/25/2026 23:04,2/25/2026 23:32,28.26,Process,Pressure instability,Availability,Unplanned,OP-012,
+DT-00819,PR-056-C,EX-001,2/26/2026 0:31,2/26/2026 1:12,40.85,Mechanical,Screw drive fault,Availability,Unplanned,OP-001,
+DT-00821,PR-056-C,EX-001,2/26/2026 1:41,2/26/2026 1:44,2.95,Minor Stops,Short material bridge,Performance,Unplanned,OP-007,
+DT-00824,PR-057-A,EX-001,2/26/2026 6:51,2/26/2026 7:38,47.23,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00827,PR-057-B,EX-001,2/26/2026 14:57,2/26/2026 15:18,20.59,Mechanical,Drive coupling failure,Availability,Unplanned,OP-012,
+DT-00830,PR-057-B,EX-001,2/26/2026 17:14,2/26/2026 17:15,0.59,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-005,
+DT-00835,PR-058-A,EX-001,2/27/2026 7:00,2/27/2026 8:04,63.65,Mechanical,Gearbox vibration,Availability,Unplanned,OP-001,
+DT-00837,PR-058-B,EX-001,2/27/2026 15:01,2/27/2026 15:12,11.19,Material,Material lot verification hold,Availability,Unplanned,,
+DT-00838,PR-058-B,EX-001,2/27/2026 15:48,2/27/2026 16:21,32.78,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-00839,PR-058-B,EX-001,2/27/2026 16:44,2/27/2026 16:47,2.61,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00840,PR-058-B,EX-001,2/27/2026 17:00,2/27/2026 17:02,2.53,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-004,
+DT-00842,PR-058-B,EX-001,2/27/2026 18:08,2/27/2026 18:11,2.7,Minor Stops,Short material bridge,Performance,Unplanned,OP-004,
+DT-00843,PR-058-C,EX-001,2/27/2026 22:38,2/27/2026 23:05,27.3,Changeover,Color/purge change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00844,PR-058-C,EX-001,2/27/2026 23:43,2/28/2026 0:17,34.89,Process,Dimensional adjustment,Availability,Unplanned,OP-005,
+DT-00847,PR-058-C,EX-001,2/28/2026 2:09,2/28/2026 2:12,2.55,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-010,
+DT-00849,PR-059-A,EX-001,2/28/2026 6:23,2/28/2026 6:41,18.5,Material,Material lot verification hold,Availability,Unplanned,OP-002,
+DT-00850,PR-059-A,EX-001,2/28/2026 7:46,2/28/2026 8:13,27.4,Mechanical,Drive coupling failure,Availability,Unplanned,OP-009,Repeat equipment reliability issue observed
+DT-00851,PR-059-A,EX-001,2/28/2026 8:42,2/28/2026 8:55,12.13,Process,Pressure instability,Availability,Unplanned,OP-008,
+DT-00853,PR-059-A,EX-001,2/28/2026 9:29,2/28/2026 9:30,1.06,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-010,
+DT-00855,PR-059-B,EX-001,2/28/2026 14:39,2/28/2026 14:52,13.46,Quality,Quality hold,Availability,Unplanned,OP-002,
+DT-00856,PR-059-B,EX-001,2/28/2026 15:55,2/28/2026 16:28,33.22,Quality,In-process inspection hold,Availability,Unplanned,OP-011,
+DT-00857,PR-059-B,EX-001,2/28/2026 17:11,2/28/2026 17:29,17.41,Process,Die buildup requiring stop,Availability,Unplanned,OP-012,
+DT-00858,PR-059-C,EX-001,2/28/2026 23:42,3/1/2026 0:10,27.82,Mechanical,Bearing temperature high,Availability,Unplanned,OP-009,Repeat equipment reliability issue observed
+DT-00859,PR-059-C,EX-001,3/1/2026 0:40,3/1/2026 0:49,8.86,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-00862,PR-060-A,EX-001,3/1/2026 6:43,3/1/2026 6:58,14.57,Electrical,Control panel reset,Availability,Unplanned,OP-003,
+DT-00863,PR-060-A,EX-001,3/1/2026 7:44,3/1/2026 8:31,46.9,Process,Dimensional adjustment,Availability,Unplanned,OP-002,
+DT-00864,PR-060-A,EX-001,3/1/2026 8:46,3/1/2026 9:14,27.62,Electrical,Motor overload trip,Availability,Unplanned,OP-001,
+DT-00866,PR-060-A,EX-001,3/1/2026 10:19,3/1/2026 10:21,2.35,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-003,
+DT-00869,PR-060-B,EX-001,3/1/2026 14:37,3/1/2026 14:41,4.56,Process,Dimensional adjustment,Availability,Unplanned,OP-011,
+DT-00870,PR-060-B,EX-001,3/1/2026 15:28,3/1/2026 15:47,19.57,Mechanical,Drive coupling failure,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-00871,PR-060-B,EX-001,3/1/2026 16:00,3/1/2026 16:36,36.67,Material,Material not staged,Availability,Unplanned,OP-005,
+DT-00872,PR-060-B,EX-001,3/1/2026 16:41,3/1/2026 16:43,2.8,Minor Stops,Momentary line speed interruption ,Performance,Unplanned,OP-009,
+DT-00874,PR-060-C,EX-001,3/1/2026 23:06,3/1/2026 23:24,17.75,Electrical,Heater circuit fault,Availability,Unplanned,OP-001,
+DT-00875,PR-060-C,EX-001,3/2/2026 0:21,3/2/2026 0:34,12.9,Process,Die buildup requiring stop,Availability,Unplanned,OP-011,
+DT-00878,PR-060-C,EX-001,3/2/2026 2:37,3/2/2026 2:40,2.71,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-001,
+DT-00879,PR-061-A,EX-001,3/2/2026 9:18,3/2/2026 9:43,25.1,Changeover,Color/purge change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00881,PR-061-B,EX-001,3/2/2026 14:57,3/2/2026 15:51,53.99,Electrical,Heater circuit fault,Availability,Unplanned,OP-007,
+DT-00882,PR-061-B,EX-001,3/2/2026 16:02,3/2/2026 16:24,22.1,Quality,Quality hold,Availability,Unplanned,OP-010,
+DT-00885,PR-061-B,EX-001,3/2/2026 18:17,3/2/2026 18:18,1.04,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-007,
+DT-00886,PR-061-C,EX-001,3/2/2026 23:45,3/2/2026 23:52,7.94,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-00887,PR-061-C,EX-001,3/3/2026 0:03,3/3/2026 1:48,105,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-00889,PR-062-A,EX-001,3/3/2026 6:09,3/3/2026 6:31,21.48,Changeover,Product specification change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00892,PR-062-A,EX-001,3/3/2026 9:39,3/3/2026 9:41,1.93,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-007,
+DT-00893,PR-062-B,EX-001,3/3/2026 14:43,3/3/2026 15:00,17,Process,Dimensional adjustment,Availability,Unplanned,OP-001,
+DT-00894,PR-062-B,EX-001,3/3/2026 15:36,3/3/2026 16:20,43.53,Changeover,Product specification change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00895,PR-062-B,EX-001,3/3/2026 16:47,3/3/2026 17:30,42.5,Changeover,Color/purge change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00896,PR-062-B,EX-001,3/3/2026 17:45,3/3/2026 17:56,10.98,Electrical,Motor overload trip,Availability,Unplanned,OP-005,
+DT-00897,PR-062-B,EX-001,3/3/2026 18:21,3/3/2026 18:53,31.65,Changeover,Product specification change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-00898,PR-062-B,EX-001,3/3/2026 19:14,3/3/2026 19:41,26.23,Material,Material lot verification hold,Availability,Unplanned,OP-010,
+DT-00899,PR-062-B,EX-001,3/3/2026 19:49,3/3/2026 20:27,38.12,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00901,PR-062-C,EX-001,3/3/2026 22:13,3/3/2026 23:17,64.09,Mechanical,Screw drive fault,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-00902,PR-062-C,EX-001,3/3/2026 23:24,3/3/2026 23:48,24.12,Changeover,Color/purge change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00903,PR-062-C,EX-001,3/3/2026 23:58,3/4/2026 0:20,22.92,Changeover,Color/purge change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-00904,PR-062-C,EX-001,3/4/2026 0:39,3/4/2026 2:15,95.26,Mechanical,Bearing temperature high,Availability,Unplanned,OP-002,Repeat equipment reliability issue observed
+DT-00909,PR-062-C,EX-001,3/4/2026 3:15,3/4/2026 3:16,1.62,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-002,
+DT-00912,PR-062-C,EX-001,3/4/2026 3:50,3/4/2026 3:52,2.47,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-001,
+DT-00914,PR-063-A,EX-001,3/4/2026 8:19,3/4/2026 8:29,10.12,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-00915,PR-063-A,EX-001,3/4/2026 9:28,3/4/2026 9:30,2.15,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-00916,PR-063-A,EX-001,3/4/2026 10:16,3/4/2026 10:17,1.31,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-00917,PR-063-B,EX-001,3/4/2026 14:31,3/4/2026 15:19,47.73,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-00919,PR-063-C,EX-001,3/4/2026 22:21,3/4/2026 23:03,41.84,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-00920,PR-063-C,EX-001,3/5/2026 0:45,3/5/2026 2:04,79.43,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-00921,PR-063-C,EX-001,3/5/2026 3:14,3/5/2026 3:44,29.92,Material,Resin feed interruption,Availability,Unplanned,OP-006,
+DT-00922,PR-064-A,EX-001,3/5/2026 6:20,3/5/2026 6:24,4.15,Process,Melt temperature instability,Availability,Unplanned,OP-001,
+DT-00923,PR-064-A,EX-001,3/5/2026 6:26,3/5/2026 6:43,17.75,Process,Pressure instability,Availability,Unplanned,OP-005,
+DT-00926,PR-064-B,EX-001,3/5/2026 14:12,3/5/2026 14:14,2,Process,Dimensional adjustment,Availability,Unplanned,OP-012,
+DT-00927,PR-064-B,EX-001,3/5/2026 15:41,3/5/2026 16:24,43.31,Changeover,Material grade change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-00929,PR-064-B,EX-001,3/5/2026 18:18,3/5/2026 18:20,1.73,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-011,
+DT-00931,PR-064-C,EX-001,3/5/2026 22:03,3/5/2026 22:26,23.29,Changeover,Color/purge change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00932,PR-064-C,EX-001,3/5/2026 22:51,3/5/2026 23:02,10.75,Material,Resin feed interruption,Availability,Unplanned,OP-001,
+DT-00933,PR-064-C,EX-001,3/5/2026 23:46,3/6/2026 0:35,49.04,Mechanical,Bearing temperature high,Availability,Unplanned,OP-002,Repeat equipment reliability issue observed
+DT-00934,PR-064-C,EX-001,3/6/2026 0:40,3/6/2026 1:10,29.18,Process,Dimensional adjustment,Availability,Unplanned,OP-010,
+DT-00935,PR-064-C,EX-001,3/6/2026 1:45,3/6/2026 2:07,22.04,Quality,Defect investigation,Availability,Unplanned,OP-002,
+DT-00936,PR-064-C,EX-001,3/6/2026 2:26,3/6/2026 3:31,65.27,Material,Material lot verification hold,Availability,Unplanned,OP-002,
+DT-00937,PR-064-C,EX-001,3/6/2026 3:34,3/6/2026 3:45,10.44,Material,Material lot verification hold,Availability,Unplanned,OP-011,
+DT-00938,PR-064-C,EX-001,3/6/2026 3:57,3/6/2026 3:58,0.7,Minor Stops,Short material bridge,Performance,Unplanned,OP-002,
+DT-00939,PR-065-A,EX-001,3/6/2026 6:45,3/6/2026 7:14,28.79,Mechanical,Drive coupling failure,Availability,Unplanned,OP-009,Repeat equipment reliability issue observed
+DT-00940,PR-065-B,EX-001,3/6/2026 14:31,3/6/2026 14:53,21.93,Process,Die buildup requiring stop,Availability,Unplanned,OP-012,
+DT-00941,PR-065-B,EX-001,3/6/2026 16:15,3/6/2026 16:19,4.68,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-00942,PR-065-B,EX-001,3/6/2026 17:19,3/6/2026 17:51,31.76,Changeover,Product specification change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-00943,PR-065-B,EX-001,3/6/2026 18:23,3/6/2026 18:29,6.57,Quality,In-process inspection hold,Availability,Unplanned,OP-003,
+DT-00944,PR-065-B,EX-001,3/6/2026 19:05,3/6/2026 19:07,2.1,Minor Stops,Short material bridge,Performance,Unplanned,OP-003,
+DT-00945,PR-065-C,EX-001,3/6/2026 23:10,3/6/2026 23:18,7.61,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-00946,PR-065-C,EX-001,3/6/2026 23:35,3/6/2026 23:48,13.93,Process,Melt temperature instability,Availability,Unplanned,OP-002,
+DT-00947,PR-065-C,EX-001,3/7/2026 0:20,3/7/2026 1:25,64.62,Process,Die buildup requiring stop,Availability,Unplanned,OP-006,
+DT-00948,PR-065-C,EX-001,3/7/2026 2:01,3/7/2026 2:28,27.6,Mechanical,Screw drive fault,Availability,Unplanned,OP-003,Repeat equipment reliability issue observed
+DT-00949,PR-065-C,EX-001,3/7/2026 2:33,3/7/2026 2:47,13.91,Process,Die buildup requiring stop,Availability,Unplanned,OP-005,
+DT-00951,PR-066-A,EX-001,3/7/2026 6:22,3/7/2026 6:31,8.87,Electrical,Motor overload trip,Availability,Unplanned,OP-008,
+DT-00952,PR-066-A,EX-001,3/7/2026 7:31,3/7/2026 7:37,5.84,Quality,,Availability,Unplanned,OP-006,
+DT-00953,PR-066-A,EX-001,3/7/2026 7:56,3/7/2026 8:16,20.22,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-00954,PR-066-A,EX-001,3/7/2026 8:42,3/7/2026 9:04,21.61,Process,,Availability,Unplanned,OP-008,
+DT-00958,PR-066-B,EX-001,3/7/2026 14:46,3/7/2026 15:55,68.37,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-00959,PR-066-B,EX-001,3/7/2026 16:55,3/7/2026 16:57,2.15,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-012,
+DT-00963,PR-066-C,EX-001,3/7/2026 22:40,3/7/2026 22:59,19.49,Changeover,color/purge change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-00964,PR-066-C,EX-001,3/7/2026 23:50,3/8/2026 0:24,33.11,Quality,Defect investigation,Availability,Unplanned,OP-009,
+DT-00965,PR-066-C,EX-001,3/8/2026 0:36,3/8/2026 0:46,9.62,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-00970,PR-067-A,EX-001,3/8/2026 7:27,3/8/2026 7:53,26.03,Process,Dimensional adjustment,Availability,Unplanned,OP-012,
+DT-00971,PR-067-B,EX-001,3/8/2026 14:43,3/8/2026 15:23,40.25,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-00972,PR-067-B,EX-001,3/8/2026 15:51,3/8/2026 16:07,16.28,Process,Die buildup requiring stop,Availability,Unplanned,OP-009,
+DT-00976,PR-067-C,EX-001,3/8/2026 23:25,3/8/2026 23:33,7.74,Quality,Defect investigation,Availability,Unplanned,OP-005,
+DT-00977,PR-067-C,EX-001,3/9/2026 0:08,3/9/2026 0:49,41.34,Changeover,Product specification change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00978,PR-067-C,EX-001,3/9/2026 1:38,3/9/2026 1:55,17.25,Quality,,Availability,Unplanned,OP-010,
+DT-00980,PR-067-C,EX-001,3/9/2026 2:58,3/9/2026 2:59,0.83,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-007,
+DT-00981,PR-068-A,EX-001,3/9/2026 7:33,3/9/2026 8:22,48.44,Process,Melt temperature instability,Availability,Unplanned,OP-009,
+DT-00982,PR-068-A,EX-001,3/9/2026 9:54,3/9/2026 10:25,30.49,Mechanical,Drive coupling failure,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-00983,PR-068-A,EX-001,3/9/2026 10:53,3/9/2026 10:54,1.67,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-008,
+DT-00984,PR-068-B,EX-001,3/9/2026 14:30,3/9/2026 15:03,32.93,Material,Resin feed interruption,Availability,Unplanned,OP-007,
+DT-00986,PR-068-C,EX-001,3/9/2026 22:54,3/9/2026 23:29,35.25,Material,Material lot verification hold,Availability,Unplanned,OP-001,
+DT-00987,PR-068-C,EX-001,3/9/2026 23:54,3/10/2026 0:52,57.77,Changeover,Material grade change,Availability,Planned,OP-004,Changeover duration above expected standard
+DT-00988,PR-068-C,EX-001,3/10/2026 1:06,3/10/2026 1:49,42.86,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-00989,PR-068-C,EX-001,3/10/2026 2:12,3/10/2026 2:20,7.9,Process,Die buildup requiring stop,Availability,Unplanned,OP-005,
+DT-00990,PR-068-C,EX-001,3/10/2026 2:46,3/10/2026 2:49,2.94,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-006,
+DT-00992,PR-069-A,EX-001,3/10/2026 6:42,3/10/2026 6:55,13.05,Mechanical,Bearing temperature high,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-00993,PR-069-A,EX-001,3/10/2026 7:45,3/10/2026 8:01,15.68,Process,Melt temperature instability,Availability,Unplanned,OP-012,
+DT-00997,PR-069-B,EX-001,3/10/2026 14:41,3/10/2026 14:59,17.99,Process,Pressure instability,Availability,Unplanned,OP-002,
+DT-00998,PR-069-B,EX-001,3/10/2026 15:14,3/10/2026 15:22,7.82,Quality,In-process inspection hold,Availability,Unplanned,OP-004,
+DT-00999,PR-069-B,EX-001,3/10/2026 16:15,3/10/2026 16:51,36.06,Mechanical,Gearbox vibration,Availability,Unplanned,OP-010,Repeat equipment reliability issue observed
+DT-01003,PR-069-C,EX-001,3/10/2026 23:54,3/10/2026 23:57,3.14,Material,Material lot verification hold,Availability,Unplanned,OP-005,
+DT-01004,PR-069-C,EX-001,3/11/2026 0:20,3/11/2026 2:05,105,Mechanical,Drive coupling failure,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01006,PR-070-A,EX-001,3/11/2026 7:57,3/11/2026 8:06,9.38,Process,Dimensional adjustment,Availability,Unplanned,OP-002,
+DT-01008,PR-070-B,EX-001,3/11/2026 15:05,3/11/2026 16:26,80.49,Mechanical,Screw drive fault,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-01009,PR-070-B,EX-001,3/11/2026 16:56,3/11/2026 17:21,24.75,Mechanical,Bearing temperature high,Availability,Unplanned,,Repeat equipment reliability issue observed
+DT-01011,PR-070-B,EX-001,3/11/2026 18:06,3/11/2026 18:09,2.45,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-003,
+DT-01012,PR-070-B,EX-001,3/11/2026 18:37,3/11/2026 18:37,0.58,Minor Stops,Short material bridge,Performance,Unplanned,OP-005,
+DT-01014,PR-070-C,EX-001,3/11/2026 23:23,3/11/2026 23:39,15.93,Process,Dimensional adjustment,Availability,Unplanned,OP-003,
+DT-01015,PR-070-C,EX-001,3/11/2026 23:50,3/12/2026 0:24,34.72,Changeover,Material grade change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-01016,PR-070-C,EX-001,3/12/2026 1:20,3/12/2026 1:34,13.82,Process,Melt temperature instability,Availability,Unplanned,OP-004,
+DT-01022,PR-071-C,EX-001,3/13/2026 0:15,3/13/2026 0:18,2.88,Minor Stops,Short material bridge,Performance,Unplanned,OP-006,
+DT-01024,PR-072-A,EX-001,3/13/2026 8:22,3/13/2026 8:23,1.71,Minor Stops,Short material bridge,Performance,Unplanned,OP-010,
+DT-01028,PR-072-B,EX-001,3/13/2026 14:05,3/13/2026 14:41,35.53,Mechanical,Bearing temperature high,Availability,Unplanned,OP-006,Repeat equipment reliability issue observed
+DT-01029,PR-072-B,EX-001,3/13/2026 15:13,3/13/2026 15:35,22.7,Changeover,Material grade change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-01030,PR-072-B,EX-001,3/13/2026 16:22,3/13/2026 16:29,7.52,Quality,Quality hold,Availability,Unplanned,OP-010,
+DT-01031,PR-072-B,EX-001,3/13/2026 16:35,3/13/2026 16:37,1.21,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-009,
+DT-01033,PR-072-B,EX-001,3/13/2026 16:56,3/13/2026 16:59,2.37,Minor Stops,Short material bridge,Performance,Unplanned,OP-011,
+DT-01034,PR-072-B,EX-001,3/13/2026 17:03,3/13/2026 17:03,0.63,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-004,
+DT-01037,PR-072-C,EX-001,3/13/2026 22:58,3/13/2026 23:16,18.78,Changeover,Product specification change,Availability,Planned,OP-002,Changeover duration above expected standard
+DT-01038,PR-072-C,EX-001,3/14/2026 0:31,3/14/2026 1:07,35.32,Process,Pressure instability,Availability,Unplanned,OP-008,
+DT-01039,PR-072-C,EX-001,3/14/2026 1:24,3/14/2026 1:27,2.66,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-006,
+DT-01040,PR-073-A,EX-001,3/14/2026 6:23,3/14/2026 8:07,103.33,Mechanical,Bearing temperature high,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01041,PR-073-A,EX-001,3/14/2026 8:28,3/14/2026 8:44,15.97,Process,Pressure instability,Availability,Unplanned,OP-009,
+DT-01043,PR-073-A,EX-001,3/14/2026 10:10,3/14/2026 10:12,2.61,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-01045,PR-073-B,EX-001,3/14/2026 14:16,3/14/2026 14:23,7.54,Process,Melt temperature instability,Availability,Unplanned,OP-004,
+DT-01046,PR-073-B,EX-001,3/14/2026 15:26,3/14/2026 15:57,30.53,Changeover,Color/purge change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-01047,PR-073-B,EX-001,3/14/2026 16:03,3/14/2026 16:45,41.7,Changeover,Color/purge change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-01048,PR-073-B,EX-001,3/14/2026 17:22,3/14/2026 17:58,36.35,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-01049,PR-073-B,EX-001,3/14/2026 18:18,3/14/2026 18:19,1.36,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-001,
+DT-01050,PR-073-C,EX-001,3/14/2026 22:09,3/14/2026 22:33,23.55,Quality,Quality hold,Availability,Unplanned,OP-003,
+DT-01051,PR-073-C,EX-001,3/14/2026 22:50,3/14/2026 22:57,6.96,Process,Pressure instability,Availability,Unplanned,,
+DT-01052,PR-073-C,EX-001,3/15/2026 0:04,3/15/2026 0:36,31.67,Changeover,Material grade change,Availability,Planned,,Changeover duration above expected standard
+DT-01055,PR-073-C,EX-001,3/15/2026 1:49,3/15/2026 1:52,2.78,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-001,
+DT-01056,PR-074-A,EX-001,3/15/2026 8:17,3/15/2026 8:57,40.04,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,Repeat equipment reliability issue observed
+DT-01057,PR-074-A,EX-001,3/15/2026 9:44,3/15/2026 9:46,1.98,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-01059,PR-074-B,EX-001,3/15/2026 14:41,3/15/2026 14:48,7.25,Process,Pressure instability,Availability,Unplanned,OP-011,
+DT-01060,PR-074-B,EX-001,3/15/2026 15:30,3/15/2026 16:18,48.45,Mechanical,Drive coupling failure,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01063,PR-074-B,EX-001,3/15/2026 18:00,3/15/2026 18:01,0.63,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-01064,PR-074-C,EX-001,3/15/2026 22:04,3/15/2026 22:32,27.21,Mechanical,Screw drive fault,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01065,PR-074-C,EX-001,3/15/2026 23:01,3/15/2026 23:20,18.03,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-01066,PR-074-C,EX-001,3/15/2026 23:45,3/15/2026 23:56,10.33,Material,Resin feed interruption,Availability,Unplanned,OP-006,
+DT-01067,PR-074-C,EX-001,3/16/2026 0:24,3/16/2026 0:31,7.28,Material,Material lot verification hold,Availability,Unplanned,OP-011,
+DT-01068,PR-074-C,EX-001,3/16/2026 1:13,3/16/2026 2:30,77.56,Mechanical,Drive coupling failure,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-01069,PR-074-C,EX-001,3/16/2026 2:55,3/16/2026 3:24,29.32,Process,Dimensional adjustment,Availability,Unplanned,OP-006,
+DT-01070,PR-075-A,EX-001,3/16/2026 8:54,3/16/2026 9:05,11.8,Material,material not staged,Availability,Unplanned,OP-006,
+DT-01073,PR-075-B,EX-001,3/16/2026 15:09,3/16/2026 15:11,1.59,Minor Stops,Short material bridge,Performance,Unplanned,OP-004,
+DT-01074,PR-075-B,EX-001,3/16/2026 15:28,3/16/2026 15:30,1.72,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-004,
+DT-01080,PR-075-C,EX-001,3/16/2026 22:48,3/16/2026 23:11,22.96,Changeover,Product specification change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-01082,PR-076-A,EX-001,3/17/2026 6:47,3/17/2026 7:37,50.84,Changeover,Product specification change,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-01083,PR-076-A,EX-001,3/17/2026 8:09,3/17/2026 8:20,11.09,Process,Die buildup requiring stop,Availability,Unplanned,OP-010,
+DT-01085,PR-076-A,EX-001,3/17/2026 9:17,3/17/2026 9:18,0.54,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-004,
+DT-01087,PR-076-B,EX-001,3/17/2026 15:10,3/17/2026 15:18,8,Mechanical,Gearbox vibration,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01088,PR-076-B,EX-001,3/17/2026 16:23,3/17/2026 17:08,44.65,Mechanical,Gearbox vibration,Availability,Unplanned,OP-002,Repeat equipment reliability issue observed
+DT-01089,PR-076-B,EX-001,3/17/2026 18:03,3/17/2026 18:05,1.98,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-008,
+DT-01090,PR-076-C,EX-001,3/17/2026 22:19,3/17/2026 22:32,12.44,Quality,Defect investigation,Availability,Unplanned,OP-007,
+DT-01091,PR-076-C,EX-001,3/17/2026 23:03,3/18/2026 0:26,83.42,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01092,PR-076-C,EX-001,3/18/2026 0:59,3/18/2026 1:04,5.18,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-01093,PR-076-C,EX-001,3/18/2026 1:34,3/18/2026 1:37,2.4,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-01094,PR-076-C,EX-001,3/18/2026 1:52,3/18/2026 2:11,19.01,Mechanical,Screw drive fault,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-01095,PR-076-C,EX-001,3/18/2026 2:23,3/18/2026 2:45,21.58,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01098,PR-076-C,EX-001,3/18/2026 3:26,3/18/2026 3:27,0.83,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-003,
+DT-01100,PR-077-A,EX-001,3/18/2026 6:42,3/18/2026 6:53,10.55,Quality,In-process inspection hold,Availability,Unplanned,OP-012,
+DT-01101,PR-077-A,EX-001,3/18/2026 7:10,3/18/2026 8:47,96.94,Mechanical,Bearing temperature high,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-01102,PR-077-A,EX-001,3/18/2026 9:01,3/18/2026 10:16,74.78,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,Repeat equipment reliability issue observed
+DT-01105,PR-077-A,EX-001,3/18/2026 11:23,3/18/2026 11:25,2.24,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-009,
+DT-01106,PR-077-B,EX-001,3/18/2026 15:30,3/18/2026 16:26,55.21,Mechanical,Screw drive fault,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01107,PR-077-B,EX-001,3/18/2026 18:00,3/18/2026 18:32,32.32,Changeover,Product specification change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-01109,PR-077-C,EX-001,3/18/2026 22:43,3/18/2026 23:06,23.18,Process,Dimensional adjustment ,Availability,Unplanned,OP-004,
+DT-01110,PR-077-C,EX-001,3/18/2026 23:39,3/18/2026 23:40,1.35,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-009,
+DT-01112,PR-077-C,EX-001,3/19/2026 1:17,3/19/2026 1:18,0.84,Minor Stops,Short material bridge,Performance,Unplanned,OP-008,
+DT-01115,PR-078-A,EX-001,3/19/2026 8:54,3/19/2026 8:57,2.94,Minor Stops,Short material bridge,Performance,Unplanned,OP-008,
+DT-01116,PR-078-B,EX-001,3/19/2026 15:17,3/19/2026 15:21,4.05,Electrical,Heater circuit fault,Availability,Unplanned,OP-010,
+DT-01117,PR-078-B,EX-001,3/19/2026 16:06,3/19/2026 16:29,22.62,Changeover,Material grade change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-01118,PR-078-B,EX-001,3/19/2026 17:09,3/19/2026 17:19,10,Material,Material not staged,Availability,Unplanned,OP-010,
+DT-01119,PR-078-B,EX-001,3/19/2026 17:50,3/19/2026 18:15,24.69,Process,Melt temperature instability,Availability,Unplanned,OP-007,
+DT-01122,PR-078-C,EX-001,3/20/2026 1:48,3/20/2026 1:50,2.91,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-01124,PR-079-A,EX-001,3/20/2026 6:46,3/20/2026 7:32,46.13,Mechanical,Screw drive fault,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-01125,PR-079-A,EX-001,3/20/2026 7:43,3/20/2026 7:44,1.74,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-01127,PR-079-A,EX-001,3/20/2026 9:34,3/20/2026 9:35,1.36,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-006,
+DT-01128,PR-079-B,EX-001,3/20/2026 14:29,3/20/2026 16:14,105,Mechanical,Bearing temperature high ,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01129,PR-079-B,EX-001,3/20/2026 16:53,3/20/2026 17:16,23.19,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-01130,PR-079-B,EX-001,3/20/2026 17:41,3/20/2026 17:50,8.94,Mechanical,Drive coupling failure,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01133,PR-079-B,EX-001,3/20/2026 18:58,3/20/2026 18:59,1.59,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-011,
+DT-01135,PR-079-C,EX-001,3/20/2026 23:28,3/20/2026 23:37,8.89,Material,Material not staged,Availability,Unplanned,OP-002,
+DT-01136,PR-079-C,EX-001,3/21/2026 0:23,3/21/2026 0:41,17.99,Material,Resin feed interruption,Availability,Unplanned,OP-005,
+DT-01137,PR-079-C,EX-001,3/21/2026 1:50,3/21/2026 1:52,1.91,Minor Stops,,Performance,Unplanned,OP-003,
+DT-01138,PR-080-A,EX-001,3/21/2026 7:32,3/21/2026 8:27,54.72,Mechanical,Screw drive fault,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-01139,PR-080-A,EX-001,3/21/2026 9:49,3/21/2026 11:15,86.05,Mechanical,Gearbox vibration,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01140,PR-080-A,EX-001,3/21/2026 12:04,3/21/2026 12:11,7.42,Quality,Defect investigation,Availability,Unplanned,OP-011,
+DT-01141,PR-080-B,EX-001,3/21/2026 14:31,3/21/2026 15:07,36.01,Changeover,Product specification change,Availability,Planned,OP-010,Changeover duration above expected standard
+DT-01142,PR-080-B,EX-001,3/21/2026 15:36,3/21/2026 16:09,33.71,Changeover,Product specification change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-01143,PR-080-B,EX-001,3/21/2026 16:48,3/21/2026 16:51,3.47,Process,,Availability,Unplanned,OP-002,
+DT-01144,PR-080-B,EX-001,3/21/2026 17:28,3/21/2026 18:08,39.12,Changeover,Color/purge change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-01145,PR-080-B,EX-001,3/21/2026 18:30,3/21/2026 18:31,1.11,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-002,
+DT-01147,PR-080-C,EX-001,3/21/2026 23:49,3/22/2026 0:10,20.95,Changeover,Product specification change,Availability,Planned,OP-011,Changeover duration above expected standard
+DT-01148,PR-080-C,EX-001,3/22/2026 0:34,3/22/2026 1:41,66.1,Mechanical,Gearbox vibration,Availability,Unplanned,OP-006,Repeat equipment reliability issue observed
+DT-01149,PR-080-C,EX-001,3/22/2026 1:49,3/22/2026 1:51,1.64,Minor Stops,Short material bridge,Performance,Unplanned,OP-009,
+DT-01150,PR-081-A,EX-001,3/22/2026 7:25,3/22/2026 7:47,21.99,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01151,PR-081-A,EX-001,3/22/2026 8:02,3/22/2026 8:34,31.75,Electrical,Motor overload trip,Availability,Unplanned,OP-008,
+DT-01152,PR-081-A,EX-001,3/22/2026 9:59,3/22/2026 10:20,20.93,Changeover,Color/purge change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-01153,PR-081-B,EX-001,3/22/2026 14:49,3/22/2026 14:56,7.12,Electrical,,Availability,Unplanned,OP-004,
+DT-01157,PR-081-B,EX-001,3/22/2026 17:54,3/22/2026 17:55,1.34,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-006,
+DT-01158,PR-081-C,EX-001,3/22/2026 23:00,3/22/2026 23:12,12.72,Mechanical,Screw drive fault,Availability,Unplanned,OP-010,Repeat equipment reliability issue observed
+DT-01159,PR-081-C,EX-001,3/23/2026 0:42,3/23/2026 0:55,12.53,Process,Die buildup requiring stop,Availability,Unplanned,OP-003,
+DT-01160,PR-081-C,EX-001,3/23/2026 1:45,3/23/2026 2:43,58.23,Mechanical,,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01162,PR-082-A,EX-001,3/23/2026 8:59,3/23/2026 9:10,10.72,Mechanical,Bearing temperature high,Availability,Unplanned,OP-006,Repeat equipment reliability issue observed
+DT-01164,PR-082-B,EX-001,3/23/2026 14:08,3/23/2026 15:06,57.9,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-01165,PR-082-B,EX-001,3/23/2026 15:27,3/23/2026 15:29,1.93,Quality,Defect investigation,Availability,Unplanned,OP-011,
+DT-01166,PR-082-B,EX-001,3/23/2026 15:44,3/23/2026 16:47,62.77,Mechanical,Gearbox vibration,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-01167,PR-082-B,EX-001,3/23/2026 17:00,3/23/2026 17:28,28.38,Process,Melt temperature instability,Availability,Unplanned,OP-007,
+DT-01168,PR-082-B,EX-001,3/23/2026 17:47,3/23/2026 18:44,57.09,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01169,PR-082-B,EX-001,3/23/2026 18:54,3/23/2026 18:56,1.93,Quality,Defect investigation,Availability,Unplanned,OP-009,
+DT-01171,PR-082-B,EX-001,3/23/2026 19:22,3/23/2026 19:24,1.87,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-010,
+DT-01173,PR-082-B,EX-001,3/23/2026 19:46,3/23/2026 19:48,1.8,Minor Stops,Short material bridge,Performance,Unplanned,OP-005,
+DT-01174,PR-082-C,EX-001,3/23/2026 22:20,3/23/2026 22:25,4.53,Material,Resin feed interruption,Availability,Unplanned,OP-009,
+DT-01175,PR-082-C,EX-001,3/23/2026 22:49,3/23/2026 23:48,59.45,Mechanical,,Availability,Unplanned,OP-010,Repeat equipment reliability issue observed
+DT-01176,PR-082-C,EX-001,3/23/2026 23:57,3/24/2026 0:28,30.68,Process,Dimensional adjustment,Availability,Unplanned,OP-007,
+DT-01177,PR-082-C,EX-001,3/24/2026 0:46,3/24/2026 1:03,17.12,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-01182,PR-082-C,EX-001,3/24/2026 2:33,3/24/2026 2:36,2.58,Minor Stops,Minor operator adjustment ,Performance,Unplanned,OP-007,
+DT-01183,PR-083-A,EX-001,3/24/2026 6:03,3/24/2026 6:21,18.1,Process,Pressure instability,Availability,Unplanned,OP-005,
+DT-01184,PR-083-A,EX-001,3/24/2026 6:49,3/24/2026 7:25,35.34,Material,Resin feed interruption,Availability,Unplanned,OP-007,
+DT-01185,PR-083-A,EX-001,3/24/2026 7:37,3/24/2026 7:40,2.82,Minor Stops,brief feed interruption,Performance,Unplanned,OP-008,
+DT-01188,PR-083-A,EX-001,3/24/2026 8:41,3/24/2026 8:43,1.77,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-01189,PR-083-A,EX-001,3/24/2026 8:53,3/24/2026 8:56,2.83,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-006,
+DT-01191,PR-083-B,EX-001,3/24/2026 14:01,3/24/2026 14:22,21.19,Changeover,,Availability,Planned,OP-008,Changeover duration above expected standard
+DT-01192,PR-083-B,EX-001,3/24/2026 14:53,3/24/2026 15:47,53.71,Mechanical,Gearbox vibration,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-01193,PR-083-B,EX-001,3/24/2026 16:11,3/24/2026 17:19,68.28,Mechanical,Gearbox vibration,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01194,PR-083-B,EX-001,3/24/2026 17:29,3/24/2026 17:48,18.84,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-01195,PR-083-B,EX-001,3/24/2026 18:11,3/24/2026 18:46,34.97,Mechanical,Bearing temperature high,Availability,Unplanned,OP-005,Repeat equipment reliability issue observed
+DT-01196,PR-083-B,EX-001,3/24/2026 18:56,3/24/2026 19:06,10.35,Process,Melt temperature instability,Availability,Unplanned,OP-006,
+DT-01197,PR-083-B,EX-001,3/24/2026 19:20,3/24/2026 19:22,2.67,Quality,In-process inspection hold,Availability,Unplanned,OP-007,
+DT-01202,PR-083-C,EX-001,3/24/2026 23:21,3/25/2026 0:14,52.47,Changeover,,Availability,Planned,OP-003,Changeover duration above expected standard
+DT-01203,PR-083-C,EX-001,3/25/2026 1:20,3/25/2026 1:35,14.89,Process,,Availability,Unplanned,OP-012,
+DT-01207,PR-084-A,EX-001,3/25/2026 7:36,3/25/2026 8:10,34.57,Mechanical,Drive coupling failure,Availability,Unplanned,OP-009,Repeat equipment reliability issue observed
+DT-01208,PR-084-A,EX-001,3/25/2026 9:07,3/25/2026 9:31,23.16,Process,Pressure instability,Availability,Unplanned,OP-003,
+DT-01210,PR-084-B,EX-001,3/25/2026 14:20,3/25/2026 14:30,9.94,Electrical,Motor overload trip,Availability,Unplanned,OP-007,
+DT-01211,PR-084-B,EX-001,3/25/2026 15:02,3/25/2026 16:05,63.1,Mechanical,Bearing temperature high,Availability,Unplanned,OP-008,Repeat equipment reliability issue observed
+DT-01212,PR-084-B,EX-001,3/25/2026 16:26,3/25/2026 16:28,2.03,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-011,
+DT-01215,PR-084-B,EX-001,3/25/2026 18:12,3/25/2026 18:13,1.46,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-003,
+DT-01216,PR-084-C,EX-001,3/25/2026 22:33,3/25/2026 22:41,7.77,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-01217,PR-084-C,EX-001,3/25/2026 23:28,3/26/2026 0:04,36,Process,Pressure instability,Availability,Unplanned,OP-008,
+DT-01218,PR-084-C,EX-001,3/26/2026 0:38,3/26/2026 0:59,21.82,Mechanical,Screw drive fault,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-01219,PR-084-C,EX-001,3/26/2026 1:30,3/26/2026 3:15,105,Mechanical,Screw drive fault,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01223,PR-085-A,EX-001,3/26/2026 6:36,3/26/2026 7:30,54.32,Mechanical,Bearing temperature high,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-01224,PR-085-A,EX-001,3/26/2026 8:16,3/26/2026 8:38,21.87,Material,Material not staged,Availability,Unplanned,OP-006,
+DT-01225,PR-085-A,EX-001,3/26/2026 9:14,3/26/2026 9:38,24.21,Electrical,Motor overload trip,Availability,Unplanned,OP-011,
+DT-01227,PR-085-A,EX-001,3/26/2026 10:27,3/26/2026 10:28,0.73,Minor Stops,Minor operator adjustment ,Performance,Unplanned,OP-007,
+DT-01230,PR-085-B,EX-001,3/26/2026 14:22,3/26/2026 15:42,79.68,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,Repeat equipment reliability issue observed
+DT-01231,PR-085-B,EX-001,3/26/2026 16:06,3/26/2026 16:45,38.66,Process,Dimensional adjustment,Availability,Unplanned,OP-008,
+DT-01232,PR-085-B,EX-001,3/26/2026 17:15,3/26/2026 17:43,27.17,Changeover,Color/purge change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-01233,PR-085-B,EX-001,3/26/2026 17:48,3/26/2026 18:01,12.15,Electrical,Heater circuit fault,Availability,Unplanned,OP-002,
+DT-01234,PR-085-B,EX-001,3/26/2026 18:09,3/26/2026 18:27,17.96,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-01235,PR-085-B,EX-001,3/26/2026 18:33,3/26/2026 18:40,6.65,Mechanical,Drive coupling failure,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-01236,PR-085-B,EX-001,3/26/2026 18:53,3/26/2026 19:20,27.72,Changeover,Color/purge change,Availability,Planned,OP-006,Changeover duration above expected standard
+DT-01238,PR-085-B,EX-001,3/26/2026 19:34,3/26/2026 19:36,2.18,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-012,
+DT-01239,PR-085-C,EX-001,3/27/2026 2:14,3/27/2026 2:45,30.57,Mechanical,Gearbox vibration,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-01240,PR-086-A,EX-001,3/27/2026 9:44,3/27/2026 10:17,32.87,Changeover,Material grade change,Availability,Planned,OP-012,Changeover duration above expected standard
+DT-01241,PR-086-B,EX-001,3/27/2026 14:50,3/27/2026 16:03,73,Mechanical,Screw drive fault,Availability,Unplanned,OP-005,Repeat equipment reliability issue observed
+DT-01242,PR-086-B,EX-001,3/27/2026 16:45,3/27/2026 16:47,2,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-01243,PR-086-B,EX-001,3/27/2026 17:09,3/27/2026 17:38,28.96,Electrical,Motor overload trip,Availability,Unplanned,OP-002,
+DT-01244,PR-086-B,EX-001,3/27/2026 17:59,3/27/2026 18:05,5.92,Material,Material not staged,Availability,Unplanned,OP-008,
+DT-01248,PR-086-C,EX-001,3/27/2026 23:31,3/27/2026 23:33,2.7,Electrical,Heater circuit fault,Availability,Unplanned,OP-006,
+DT-01249,PR-086-C,EX-001,3/28/2026 0:35,3/28/2026 0:36,1.28,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-009,
+DT-01252,PR-087-A,EX-001,3/28/2026 7:38,3/28/2026 8:20,42.04,Material,Resin feed interruption,Availability,Unplanned,OP-011,
+DT-01253,PR-087-A,EX-001,3/28/2026 8:39,3/28/2026 8:53,13.93,Process,Pressure instability,Availability,Unplanned,OP-009,
+DT-01254,PR-087-A,EX-001,3/28/2026 9:26,3/28/2026 10:39,72.88,Mechanical,Screw drive fault,Availability,Unplanned,OP-007,Repeat equipment reliability issue observed
+DT-01255,PR-087-A,EX-001,3/28/2026 10:54,3/28/2026 12:15,81.14,Mechanical,Drive coupling failure,Availability,Unplanned,OP-005,Repeat equipment reliability issue observed
+DT-01256,PR-087-B,EX-001,3/28/2026 14:56,3/28/2026 15:06,9.67,Process,dimensional adjustment,Availability,Unplanned,OP-008,
+DT-01257,PR-087-B,EX-001,3/28/2026 15:55,3/28/2026 17:33,97.95,Mechanical,Drive coupling failure,Availability,Unplanned,OP-002,Repeat equipment reliability issue observed
+DT-01258,PR-087-B,EX-001,3/28/2026 17:43,3/28/2026 17:59,15.3,Material,Material lot verification hold,Availability,Unplanned,OP-001,
+DT-01259,PR-087-B,EX-001,3/28/2026 18:08,3/28/2026 18:43,35.47,Process,Die buildup requiring stop,Availability,Unplanned,OP-009,
+DT-01260,PR-087-B,EX-001,3/28/2026 18:58,3/28/2026 19:50,51.6,Changeover,Product specification change,Availability,Planned,OP-001,Changeover duration above expected standard
+DT-01262,PR-087-C,EX-001,3/29/2026 2:31,3/29/2026 3:25,54.29,Mechanical,Drive coupling failure,Availability,Unplanned,OP-003,Repeat equipment reliability issue observed
+DT-01263,PR-088-A,EX-001,3/29/2026 6:02,3/29/2026 6:20,17.24,Material,Material not staged,Availability,Unplanned,OP-006,
+DT-01264,PR-088-A,EX-001,3/29/2026 6:52,3/29/2026 7:22,29.49,Material,Resin feed interruption,Availability,Unplanned,OP-004,
+DT-01265,PR-088-A,EX-001,3/29/2026 8:14,3/29/2026 8:33,18.74,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-01267,PR-088-A,EX-001,3/29/2026 9:42,3/29/2026 9:43,0.7,Minor Stops,Short material bridge,Performance,Unplanned,OP-006,
+DT-01270,PR-088-B,EX-001,3/29/2026 15:00,3/29/2026 15:17,16.74,Mechanical,Screw drive fault,Availability,Unplanned,OP-001,Repeat equipment reliability issue observed
+DT-01271,PR-088-B,EX-001,3/29/2026 15:33,3/29/2026 15:56,22.91,Electrical,Motor overload trip,Availability,Unplanned,OP-011,
+DT-01272,PR-088-B,EX-001,3/29/2026 16:19,3/29/2026 16:33,14.48,Mechanical,Bearing temperature high,Availability,Unplanned,OP-011,Repeat equipment reliability issue observed
+DT-01273,PR-088-B,EX-001,3/29/2026 16:45,3/29/2026 17:16,31.66,Mechanical,Screw drive fault,Availability,Unplanned,,Repeat equipment reliability issue observed
+DT-01274,PR-088-B,EX-001,3/29/2026 17:47,3/29/2026 18:25,38.77,Mechanical,Gearbox vibration,Availability,Unplanned,OP-009,Repeat equipment reliability issue observed
+DT-01278,PR-088-C,EX-001,3/30/2026 0:19,3/30/2026 0:20,1.86,Minor Stops,momentary line speed interruption,Performance,Unplanned,OP-007,
+DT-01280,PR-089-A,EX-001,3/30/2026 7:15,3/30/2026 7:31,16.52,Process,Melt temperature instability,Availability,Unplanned,OP-012,
+DT-01281,PR-089-A,EX-001,3/30/2026 8:38,3/30/2026 8:59,20.5,Electrical,Motor overload trip,Availability,Unplanned,OP-012,
+DT-01284,PR-089-B,EX-001,3/30/2026 14:52,3/30/2026 15:06,13.86,Quality,Quality hold,Availability,Unplanned,OP-006,
+DT-01285,PR-089-B,EX-001,3/30/2026 15:25,3/30/2026 15:42,17.06,Material,Material lot verification hold,Availability,Unplanned,OP-005,
+DT-01286,PR-089-B,EX-001,3/30/2026 15:48,3/30/2026 16:00,12.21,Quality,In-process inspection hold,Availability,Unplanned,OP-007,
+DT-01287,PR-089-B,EX-001,3/30/2026 16:22,3/30/2026 16:22,0.64,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-005,
+DT-01289,PR-089-C,EX-001,3/30/2026 23:49,3/31/2026 0:03,13.98,Material,Material lot verification hold,Availability,Unplanned,OP-007,
+DT-01290,PR-089-C,EX-001,3/31/2026 0:30,3/31/2026 0:37,7.4,Material,Material lot verification hold,Availability,Unplanned,OP-006,
+DT-01291,PR-089-C,EX-001,3/31/2026 1:19,3/31/2026 1:37,17.57,Mechanical,Screw drive fault,Availability,Unplanned,OP-012,Repeat equipment reliability issue observed
+DT-01292,PR-089-C,EX-001,3/31/2026 1:50,3/31/2026 1:51,1.62,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-009,
+DT-01293,PR-090-A,EX-001,3/31/2026 7:25,3/31/2026 8:16,50.78,Changeover,Product specification change,Availability,Planned,OP-007,Changeover duration above expected standard
+DT-01294,PR-090-A,EX-001,3/31/2026 8:47,3/31/2026 9:39,52.66,Changeover,Color/purge change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-01295,PR-090-A,EX-001,3/31/2026 10:29,3/31/2026 10:37,8.54,Quality,In-process inspection hold,Availability,Unplanned,OP-009,
+DT-01296,PR-090-B,EX-001,3/31/2026 14:04,3/31/2026 14:19,14.36,Material,Material lot verification hold,Availability,Unplanned,OP-002,
+DT-01297,PR-090-B,EX-001,3/31/2026 15:08,3/31/2026 15:14,5.82,Process,Die buildup requiring stop,Availability,Unplanned,,
+DT-01298,PR-090-B,EX-001,3/31/2026 15:29,3/31/2026 15:31,1.48,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-003,
+DT-01299,PR-090-B,EX-001,3/31/2026 15:59,3/31/2026 16:00,1.22,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-004,
+DT-01300,PR-090-B,EX-001,3/31/2026 16:30,3/31/2026 16:32,2.26,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-012,
+DT-01304,PR-090-C,EX-001,3/31/2026 22:32,3/31/2026 22:50,18.44,Material,Material lot verification hold,Availability,Unplanned,OP-012,
+DT-01305,PR-090-C,EX-001,3/31/2026 23:34,3/31/2026 23:58,23.52,Changeover,Color/purge change,Availability,Planned,OP-005,Changeover duration above expected standard
+DT-01306,PR-090-C,EX-001,4/1/2026 0:41,4/1/2026 0:49,8.25,Quality,Quality hold,Availability,Unplanned,OP-004,
+DT-01307,PR-090-C,EX-001,4/1/2026 1:22,4/1/2026 2:01,38.53,Quality,Quality hold,Availability,Unplanned,OP-010,
+DT-01308,PR-090-C,EX-001,4/1/2026 2:13,4/1/2026 2:52,39.24,Material,Material not staged,Availability,Unplanned,OP-006,
+DT-01309,PR-090-C,EX-001,4/1/2026 3:12,4/1/2026 3:14,1.83,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-004,
+DT-01310,PR-090-C,EX-001,4/1/2026 3:29,4/1/2026 3:30,0.97,Minor Stops,Brief feed interruption,Performance,Unplanned,OP-005,
+DT-20000,PR-026-A,EX-001,1/26/2026 6:47,1/26/2026 7:07,19.93,Material,Material lot verification hold,Availability,Unplanned,OP-003,
+DT-20001,PR-089-B,EX-001,3/30/2026 16:22,3/30/2026 16:22,0.64,Minor Stops,Minor operator adjustment,Performance,Unplanned,OP-005,
+DT-20002,PR-045-A,EX-001,2/14/2026 8:56,2/14/2026 9:21,24.67,Changeover,Material grade change,Availability,Planned,OP-009,Changeover duration above expected standard
+DT-20003,PR-080-C,EX-001,3/22/2026 1:49,3/22/2026 1:51,1.64,Minor Stops,Short material bridge,Performance,Unplanned,OP-009,
+DT-20004,PR-073-C,EX-001,3/15/2026 1:49,3/15/2026 1:52,2.78,Minor Stops,Momentary line speed interruption,Performance,Unplanned,OP-001,
+DT-20005,PR-064-C,EX-001,3/5/2026 23:46,3/6/2026 0:35,49.04,Mechanical,Bearing temperature high,Availability,Unplanned,OP-002,Repeat equipment reliability issue observed
+DT-20006,PR-077-B,EX-001,3/18/2026 15:30,3/18/2026 16:26,55.21,Mechanical,Screw drive fault,Availability,Unplanned,OP-004,Repeat equipment reliability issue observed
+DT-20007,PR-061-C,EX-001,3/2/2026 23:45,3/2/2026 23:52,7.94,Material,Material lot verification hold,Availability,Unplanned,OP-003,

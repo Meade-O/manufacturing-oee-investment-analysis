@@ -1,0 +1,6 @@
+Product_ID,Material,Product_Name,Ideal_Rate_kg_hr,Baseline_Startup_Scrap_Rate,Typical_Changeover_Min,Target_Performance_Factor
+P-1001,Polypropylene,Standard Grade,120,0.035,12,0.9
+P-1002,Polyethylene,Flexible Grade,105,0.045,15,0.88
+P-1003,PVDF,Specialty Grade,75,0.115,28,0.82
+P-1004,PES,Filtration Grade,85,0.055,20,0.85
+P-1005,Polyurethane,Specialty Grade,65,0.07,24,0.8

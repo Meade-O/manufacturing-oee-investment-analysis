@@ -1,0 +1,2 @@
+Machine_ID,Equipment_Type,Manufacturer,Model,Installation_Year,Rated_Capacity_kg_hr,Operating_Shifts_Per_Day,Shift_Length_Min,Scheduled_Production_Min_Per_Shift,Maintenance_Strategy,Primary_Process,Data_Notes
+EX-001,Single-screw polymer extrusion line,Northstar Industrial (fictional),NSX-120,2018,120,3,480,480,Preventive maintenance with corrective work orders,Continuous polymer extrusion,Synthetic demonstration asset; specifications are illustrative
